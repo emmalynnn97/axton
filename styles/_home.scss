@@ -1,27 +1,16 @@
 @include hero($home-hero-image, $home-hero-height, home-hero);
 @keyframes bounce {
   0% {
-    top:84vh;
+	transform:translateY(0);
   }
-
   50% {
-    top:86.5vh;
+	transform:translateY(-40px);
   }
 	100%{
-		top:84vh;
+		transform:translateY(0);
 	}
 }
-@keyframes bounce2 {
-	0% {
-		top:0px;
-	}
-	50% {
-		top:-30px;
-	}
-	100% {
-		top:0px;
-	}
-}
+
 .home-hero{
 	.hero-overlay{
 		@include flex;
@@ -129,7 +118,7 @@
     right: 0;
     margin: auto;
     width: 75px;
-				animation: 1s infinite bounce2;
+				animation: 1s infinite bounce;
 			}
 		}
 	h2{
@@ -183,7 +172,7 @@
     right: 0;
     margin: auto;
     width: 75px;
-				animation: 1s infinite bounce2;
+				animation: 1s infinite bounce;
 			}
 		}
 	.home-dealers{
