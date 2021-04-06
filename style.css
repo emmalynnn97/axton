@@ -1,0 +1,487 @@
+/*
+ Theme Name:   Axton Trucking Theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Twenty Child Theme
+ Author:       Emma Lynn
+ Author URI:   http://example.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  axtontruck
+ */
+/*
+ * 
+ * Mixin to generate a full width hero
+ * 
+ */
+/*
+ * 
+ * Mixin to easily align content
+ * 
+ */
+/*
+ * 
+ * Variables
+ * 
+ */
+.home-hero {
+  background-image: url("/wp-content/uploads/2021/02/gallery-24.jpg");
+  min-height: 87.5vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+@keyframes bounce {
+  0% {
+    top: 84vh;
+  }
+  50% {
+    top: 86.5vh;
+  }
+  100% {
+    top: 84vh;
+  }
+}
+@keyframes bounce2 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -30px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.home-hero .hero-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  min-height: 87.5vh;
+}
+.home-hero .direction {
+  cursor: pointer;
+}
+.home-hero .direction img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 84vh;
+  width: 80px;
+  animation: 1s infinite bounce;
+}
+.home-hero .hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home-hero .hero-content h1 {
+  color: #ba171c;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.75em;
+  font-weight: 500;
+}
+.home-hero .hero-content span {
+  color: black;
+}
+.home-hero .hero-content a {
+  text-transform: uppercase;
+}
+.home-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.home-request {
+  min-height: 30vh;
+  background: #ba171c;
+}
+.home-videos {
+  height: 25vh;
+}
+.home-inventory {
+  min-height: 30vh;
+  background: black;
+  color: white;
+}
+.home-products {
+  min-height: 25vh;
+  background: #ba171c;
+}
+.home-welcome {
+  min-height: 45vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/wp-content/uploads/2021/03/Black_Background-scaled.jpg");
+  background-size: cover;
+  background-position: left;
+  padding: 2em 4em;
+}
+.home-welcome h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+.home-welcome h2 span {
+  color: #ba171c;
+}
+.home-welcome p, .home-welcome > span {
+  text-align: left;
+  color: white;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  width: 100%;
+}
+.home-welcome span {
+  color: #ba171c;
+  width: 100%;
+}
+.trapezoid {
+  width: 200px;
+  height: 60px;
+  background: red;
+  transform: perspective(10px) rotateX(1deg);
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+}
+.home-map {
+  min-height: auto;
+  background: #ba171c;
+  color: white;
+}
+.home-industries {
+  background: black;
+  padding: 2em 4em;
+}
+.home-industries .direction {
+  cursor: pointer;
+}
+.home-industries .direction img {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 75px;
+  animation: 1s infinite bounce2;
+}
+.home-industries h2 {
+  text-align: center;
+  margin: 0;
+}
+.home-industries .industry-outer {
+  flex-wrap: wrap;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.home-industries .industry-outer .industry-card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 30%;
+  background: white;
+  padding: 1.5em 1em;
+  margin: 0 0.8em 1.5em 0.8em;
+  height: 450px;
+}
+.home-industries .industry-outer .industry-card h5, .home-industries .industry-outer .industry-card p {
+  color: black;
+  text-align: left;
+}
+.home-industries .industry-outer .industry-card p {
+  font-weight: 400;
+  margin: 0 !important;
+}
+.home-industries .industry-outer .industry-card img, .home-industries .industry-outer .industry-card a {
+  margin: 0 auto;
+}
+.home-industries .industry-outer .industry-card a {
+  margin-top: 1em;
+}
+.home-industries .industry-outer .industry-card img {
+  height: 160px;
+  object-fit: contain;
+}
+.home-dealers-fleets {
+  background-image: url("/wp-content/uploads/2021/03/Van_background.png");
+  background-size: cover;
+  background-position: top;
+  padding: 2em 4em;
+  background: black;
+}
+.home-dealers-fleets .direction {
+  cursor: pointer;
+}
+.home-dealers-fleets .direction img {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 75px;
+  animation: 1s infinite bounce2;
+}
+.home-dealers-fleets .home-dealers {
+  margin-bottom: 1em;
+}
+.home-dealers-fleets .home-fleets {
+  margin-bottom: 3em;
+}
+.home-dealers-fleets .home-dealers, .home-dealers-fleets .home-fleets {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.home-dealers-fleets .home-dealers a, .home-dealers-fleets .home-fleets a {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+.home-dealers-fleets .home-dealers a:hover, .home-dealers-fleets .home-fleets a:hover {
+  transform: scale(1.06);
+}
+.home-dealers-fleets .home-dealers img, .home-dealers-fleets .home-fleets img {
+  width: 40%;
+  max-height: 400px;
+  object-fit: contain;
+}
+.home-dealers-fleets .home-dealers > div, .home-dealers-fleets .home-fleets > div {
+  width: 55%;
+  padding: 1.5em;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.home-dealers-fleets .home-dealers > div > div, .home-dealers-fleets .home-fleets > div > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+@media (max-width: 1024px) {
+  .home-industries {
+    padding: 1em 2em !important;
+  }
+  .industry-outer .industry-card {
+    width: 45% !important;
+  }
+}
+@media (max-width: 768px) {
+  .home-dealers-fleets {
+    padding: 1em 2em;
+  }
+  .home-dealers-fleets .home-dealers img, .home-dealers-fleets .home-fleets img {
+    width: 75%;
+  }
+  .home-dealers-fleets .home-dealers > div, .home-dealers-fleets .home-fleets > div {
+    width: 100%;
+    margin: 1em 0;
+  }
+  .home-dealers-fleets .home-dealers a, .home-dealers-fleets .home-fleets a {
+    font-size: 14px;
+  }
+  .home-dealers-fleets .home-fleets {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 500px) {
+  .industry-outer .industry-card {
+    width: 100% !important;
+  }
+  .home-hero h1 {
+    font-size: 1.75em !important;
+  }
+  .home-dealers-fleets .home-dealers a, .home-dealers-fleets .home-fleets a {
+    font-size: 10px;
+  }
+}
+.axton-sidebar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 175px;
+  width: 35px;
+  background-color: #ba171c;
+  position: fixed;
+  top: 200px;
+  right: 0px;
+  padding: 0.15em 0.25em;
+}
+.axton-sidebar a {
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+.axton-sidebar a:hover {
+  transform: scale(1.06);
+}
+#site-header {
+  background: black;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+#site-header .menu-item {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+#site-header .menu-item a {
+  color: white;
+}
+#site-header .header-inner {
+  padding: 1.25rem 0 !important;
+}
+#site-header .custom-logo {
+  width: 175px !important;
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  text-transform: uppercase;
+}
+.axton-btn {
+  background-image: url("/wp-content/uploads/2021/04/btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 175px;
+  text-align: center;
+  height: 25px;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+p {
+  color: white;
+}
+h4 {
+  margin: 0;
+}
+h5 {
+  font-size: 1.25em;
+  font-weight: 500;
+  margin: 0.5em 0 0.1em 0;
+}
+p {
+  font-size: 14px;
+  margin: 1em auto !important;
+  font-weight: 700;
+}
+body {
+  background: white;
+}
+.header-toggles, .search-toggle, .footer-nav-widgets-wrapper {
+  display: none !important;
+}
+.nut {
+  width: 20px !important;
+  margin-right: 0.25em;
+}
+.footer-insert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: black;
+  padding: 0.5em 0;
+}
+.footer-insert a {
+  margin: 0 0.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-insert div {
+  color: white;
+  margin: 0 0.25em;
+}
+.footer-items {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 2em 0.5em;
+  background: gray;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+.footer-items div {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media (max-width: 786px) {
+  .hide-tablet {
+    display: none;
+  }
+  .footer-items {
+    height: 450px;
+  }
+  .footer-items div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home-welcome {
+    padding: 2em !important;
+  }
+}

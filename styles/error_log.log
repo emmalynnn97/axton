@@ -1,0 +1,25 @@
+12/28/20 7:51:28: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:51:30: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:51:48: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:51:49: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:51:51: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:51:53: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:51:56: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:51:59: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:52:08: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:52:20: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:52:23: /nas/content/live/axtontruck2021/wp-content/plugins/wp-scss/cache/ - File Permission Error, permission denied. Please make the cache directory writable.
+12/28/20 7:53:53: style.scss - parse error: failed at `padding:0` /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/style.scss on line 3
+02/19/21 9:13:50: style.scss - parse error: failed at `$class{` /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/style.scss on line 30, at column 2
+02/19/21 9:15:21: style.scss - Missing argument class: /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/style.scss on line 38, at column 1
+02/19/21 9:18:04: style.scss - Undefined mixin hero: /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/style.scss on line 31, at column 1
+02/19/21 9:18:18: style.scss - Undefined mixin hero: /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/style.scss on line 31, at column 1
+02/19/21 10:50:03: style.scss - parse error: failed at `$class{` /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/_variables.scss on line 2, at column 2
+02/24/21 7:22:06: style.scss - Undefined variable $sidebar-padding: /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/_home.scss on line 28, at column 2
+02/24/21 7:34:12: style.scss - parse error: failed at `background;$axton-red;` /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/_home.scss on line 33, at column 2
+02/24/21 9:37:47: style.scss - Undefined variable $axton-red-see-through: /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/_home.scss on line 6, at column 3
+02/24/21 9:37:51: style.scss - Undefined variable $axton-red-see-through: /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/_home.scss on line 6, at column 3
+02/24/21 9:53:06: style.scss - Undefined variable $home-request-height: /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/_home.scss on line 25, at column 2
+03/30/21 10:07:01: style.scss - Undefined variable $home-welcome-height: /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/_home.scss on line 41, at column 2
+03/30/21 10:07:09: style.scss - Undefined variable $home-welcome-height: /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/_home.scss on line 41, at column 2
+04/01/21 7:07:38: style.scss - parse error: failed at `margin:0 1.5em 1.5em 1.5em` /nas/content/live/axtontruck2021/wp-content/themes/axtontruck/styles/_home.scss on line 101, at column 3

@@ -1,0 +1,52 @@
+/*
+ * 
+ * Mixin to generate a full width hero
+ * 
+ */
+@mixin hero($image, $height, $class, $position : center){
+	.#{$class}{
+		background-image:url($image);
+		min-height:$height;
+		width:100%;
+		background-size:cover;
+		background-position:$position;
+	}
+}
+
+/*
+ * 
+ * Mixin to easily align content
+ * 
+ */
+@mixin flex($justify : center, $align :center, $direction: row){
+	display:flex;
+	justify-content:$justify;
+	align-items:$align;
+	flex-direction:$direction;
+}
+
+/*
+ * 
+ * Variables
+ * 
+ */
+$home-hero-height : 87.5vh;
+$home-hero-heading-font-size: 2.75em;
+$home-hero-image: "/wp-content/uploads/2021/02/gallery-24.jpg";
+
+$axton-red: rgb(186,23,28);
+$axton-white-see-through: rgba(255,255,255,.7);
+
+$sidebar-height: 175px;
+$sidebar-width:35px;
+$sidebar-top: 200px;
+$sidebar-right:0px;
+$sidebar-padding:.15em .25em;
+
+$home-request-height:30vh;
+$home-videos-height:25vh;
+$home-inventory-height:30vh;
+$home-products-height:25vh;
+$home-map-height:auto;
+
+$home-welcome-height:45vh;

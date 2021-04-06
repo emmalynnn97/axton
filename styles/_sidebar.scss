@@ -1,0 +1,12 @@
+.axton-sidebar{
+	@include flex(space-evenly, center, column);
+	height:$sidebar-height;
+	width:$sidebar-width;
+	background-color:$axton-red;
+	position:fixed;
+	top:$sidebar-top;
+	right:$sidebar-right;
+	padding:$sidebar-padding;
+	a{ cursor:pointer; transition:.25s ease; }
+	a:hover{ transform:scale(1.06); }
+}
