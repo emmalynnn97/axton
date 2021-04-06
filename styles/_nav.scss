@@ -27,6 +27,20 @@
 	.custom-logo{
 	width:150px !important;
 }
+.menu-modal-inner{
+	background:black;
+	.menu-bottom{
+		display:none;
+	}
+	.toggle{
+		color:white !important;
+	}
+	.menu-item{
+		a{
+			color:white;
+		}
+	}
+}
 }
 @media(max-width:$mobile-width){
 	.header-inner{

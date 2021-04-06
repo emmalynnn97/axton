@@ -559,6 +559,18 @@
   .custom-logo {
     width: 150px !important;
   }
+  .menu-modal-inner {
+    background: black;
+  }
+  .menu-modal-inner .menu-bottom {
+    display: none;
+  }
+  .menu-modal-inner .toggle {
+    color: white !important;
+  }
+  .menu-modal-inner .menu-item a {
+    color: white;
+  }
 }
 
 @media (max-width: 500px) {
