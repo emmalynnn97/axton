@@ -1,0 +1,33 @@
+footer{
+	display:none;
+}
+.footer-insert{
+	@include flex;
+	background:black;
+	padding:.5em 0;
+	a{
+		margin:0 .25em;
+		@include flex;
+		color:white;
+		text-decoration:none;
+		font-weight:700;
+		text-transform:uppercase;
+	}
+	div{
+		color:white;
+		margin:0 .25em;
+	}
+}
+.footer-items{
+	width:100%;
+	height:300px;
+	@include flex(space-evenly, flex-start, row);
+	padding:2em .5em;
+	background:gray;
+	text-transform:uppercase;
+	flex-wrap:wrap;
+	div{
+		color:white;
+		@include flex(flex-start, flex-start, column);
+	}
+}

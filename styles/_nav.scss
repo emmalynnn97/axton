@@ -1,4 +1,7 @@
 #site-header{
+	.mobile-nav-toggle, .toggle-text{
+		color:white !important;
+	}
 	background:black;
 	position:absolute;
 	right:0;
@@ -9,6 +12,27 @@
 		font-weight:700;
 		a{color:white;}
 	}
-	.header-inner{padding:1.25rem 0 !important;}
-	.custom-logo{width:175px !important;}
+	.header-titles-wrapper{
+		justify-content: space-between;
+		padding:0;
+	}
+	.header-inner{padding:1.25rem}
+	.custom-logo{width:175px;}
+}
+@media(max-width:$tablet-width){
+	.toggle-inner{
+		padding-top:0em !important;
+		height:auto !important;
+	}
+	.custom-logo{
+	width:150px !important;
+}
+}
+@media(max-width:$mobile-width){
+	.header-inner{
+		padding:2rem 0 !important;
+	}
+	.custom-logo{
+		width:100px !important;
+	}
 }

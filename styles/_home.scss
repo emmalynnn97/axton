@@ -224,7 +224,7 @@
 		}
 	}
 }
-@media(max-width:768px){
+@media(max-width:$tablet-width){
 	.home-dealers-fleets{
 		padding:1em 2em;
 		.home-dealers,.home-fleets{
@@ -244,7 +244,7 @@
 		}
 	}
 }
-@media (max-width:500px){
+@media (max-width:$mobile-width){
 	.industry-outer{
 		.industry-card{
 			width:100% !important;
