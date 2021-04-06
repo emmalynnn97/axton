@@ -192,7 +192,7 @@
 			cursor:pointer;
 			color:white;
 			font-weight:700;
-			font-size:16px;
+			font-size:14px;
 			&:hover{
 				transform:scale(1.06);
 			}
@@ -210,6 +210,7 @@
 			border-bottom:2px solid white;
 			>div{
 				@include flex(space-evenly, center, row);
+				flex-wrap:wrap;
 			}
 		}
 	}
@@ -221,6 +222,11 @@
 	.industry-outer{
 		.industry-card{
 			width:45% !important;
+		}
+	}
+	.home-dealers,.home-fleets{
+		a{
+			font-size:12px !important;
 		}
 	}
 }
@@ -235,9 +241,7 @@
 				width:100%;
 				margin:1em 0;
 			}
-			a{
-				font-size:14px;
-			}
+			
 		}
 		.home-fleets{
 			flex-direction:column-reverse;
@@ -258,7 +262,7 @@
 	.home-dealers-fleets{
 		.home-dealers,.home-fleets{
 			a{
-				font-size:10px;
+				width:100%;
 			}
 		}
 	}

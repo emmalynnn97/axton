@@ -13,36 +13,13 @@
 
 ?>
 <?php get_template_part('template-parts/site', 'sidebar'); ?>
-<div class="footer-insert">
-	<a><img class='nut' src="/wp-content/uploads/2021/03/NUt.png" alt="nut"/>About</a>
-	<a><img class='nut' src="/wp-content/uploads/2021/03/NUt.png" alt="nut"/>Contact</a>
-	<a><img class='nut' src="/wp-content/uploads/2021/03/NUt.png" alt="nut"/>Videos</a>
-	<div>
-		Social Icons
-	</div>
-</div>
+<?php get_template_part('template-parts/footer', 'insert'); ?>
 <div class="footer-items">
 		<a href="/"><img src="/wp-content/uploads/2021/03/Axton_logo.png" alt="axton logo"/></a>
-		<div>
-			<span><strong>South Texas</strong></span>
-			<span>109 Cibolo Drive</span>
-			<span>Cibolo, TX 78108</span>
-			<span>P: 210.637.7400</span>
-			<br class="hide-tablet"/>
-			<span><strong>Map | Location</strong></span>
-		</div>
-			<div>
-			<span><strong>West Texas</strong></span>
-			<span>1911 E. Roby Highway</span>
-			<span>Snyder, TX 79549</span>
-			<span>P: 325.515.7500</span>
-			<br class="hide-tablet"/>
-			<span><strong>Map | Location</strong></span>
-		</div>
-		<div>
-			Form
-		</div>
-				</div>
+		<?php get_template_part('template-parts/footer', 'south-texas'); ?>
+		<?php get_template_part('template-parts/footer', 'west-texas'); ?>
+		<?php get_template_part('template-parts/footer', 'form'); ?>
+</div>
 			<footer id="site-footer" role="contentinfo" class="header-footer-group">
 	
 				<div class="section-inner">

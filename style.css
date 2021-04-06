@@ -397,7 +397,7 @@
   cursor: pointer;
   color: white;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .home-dealers-fleets .home-dealers a:hover, .home-dealers-fleets .home-fleets a:hover {
@@ -434,6 +434,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 @media (max-width: 1024px) {
@@ -442,6 +444,9 @@
   }
   .industry-outer .industry-card {
     width: 45% !important;
+  }
+  .home-dealers a, .home-fleets a {
+    font-size: 12px !important;
   }
 }
 
@@ -455,9 +460,6 @@
   .home-dealers-fleets .home-dealers > div, .home-dealers-fleets .home-fleets > div {
     width: 100%;
     margin: 1em 0;
-  }
-  .home-dealers-fleets .home-dealers a, .home-dealers-fleets .home-fleets a {
-    font-size: 14px;
   }
   .home-dealers-fleets .home-fleets {
     -webkit-box-orient: vertical;
@@ -475,7 +477,7 @@
     font-size: 1.75em !important;
   }
   .home-dealers-fleets .home-dealers a, .home-dealers-fleets .home-fleets a {
-    font-size: 10px;
+    width: 100%;
   }
 }
 
@@ -642,6 +644,11 @@ footer {
   text-transform: uppercase;
 }
 
+.footer-insert a:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+}
+
 .footer-insert div {
   color: white;
   margin: 0 .25em;
@@ -664,7 +671,7 @@ footer {
       -ms-flex-direction: row;
           flex-direction: row;
   padding: 2em .5em;
-  background: gray;
+  background: #222222;
   text-transform: uppercase;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;

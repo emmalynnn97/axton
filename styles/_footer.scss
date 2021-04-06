@@ -12,6 +12,9 @@ footer{
 		text-decoration:none;
 		font-weight:700;
 		text-transform:uppercase;
+        &:hover{
+            transform:scale(1.06);
+        }
 	}
 	div{
 		color:white;
@@ -23,7 +26,7 @@ footer{
 	height:300px;
 	@include flex(space-evenly, flex-start, row);
 	padding:2em .5em;
-	background:gray;
+	background:rgb(34, 34, 34);
 	text-transform:uppercase;
 	flex-wrap:wrap;
 	div{
