@@ -551,6 +551,22 @@
   width: 175px;
 }
 
+.menu-modal-inner {
+  background: black;
+}
+
+.menu-modal-inner .menu-bottom {
+  display: none;
+}
+
+.menu-modal-inner .toggle {
+  color: white !important;
+}
+
+.menu-modal-inner .menu-item a {
+  color: white;
+}
+
 @media (max-width: 768px) {
   .toggle-inner {
     padding-top: 0em !important;
@@ -558,18 +574,6 @@
   }
   .custom-logo {
     width: 150px !important;
-  }
-  .menu-modal-inner {
-    background: black;
-  }
-  .menu-modal-inner .menu-bottom {
-    display: none;
-  }
-  .menu-modal-inner .toggle {
-    color: white !important;
-  }
-  .menu-modal-inner .menu-item a {
-    color: white;
   }
 }
 
