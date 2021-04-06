@@ -1,1 +1,0 @@
-<div class="home-section home-request">Request a quote</div>
