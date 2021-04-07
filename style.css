@@ -605,6 +605,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   cursor: pointer;
   text-decoration: none !important;
+  font-family: "Akrobat", Arial, sans-serif !important;
 }
 
 p {
@@ -612,6 +613,7 @@ p {
   margin: 1em auto !important;
   font-weight: 700;
   color: white;
+  font-family: "Akrobat", Arial, sans-serif !important;
 }
 
 h4 {
