@@ -586,9 +586,20 @@
   }
 }
 
+@font-face {
+  font-family: Akrobat Extra Bold;
+  src: url("../fonts/Akrobat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Akrobat;
+  src: url("../fonts/Akrobat-Black.ttf");
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: white;
   text-transform: uppercase;
+  font-family: "Akrobat", Arial, sans-serif !important;
 }
 
 a {
@@ -785,4 +796,3 @@ body {
     padding: 2em !important;
   }
 }
-/*# sourceMappingURL=style.css.map */
