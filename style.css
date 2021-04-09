@@ -815,16 +815,18 @@ footer {
           flex-direction: column;
 }
 
+.footer-items .footer-form-container input {
+  margin: .35em 0;
+}
+
 .footer-items .footer-form-container input[type="text"], .footer-items .footer-form-container input[type="email"] {
   color: red;
   padding: .25em .5em;
   outline: none;
   border: none;
-  margin: .5em auto;
 }
 
 .footer-items .footer-form-container input[type="textarea"] {
-  margin-top: .25em;
   height: 50px;
   padding: .25em .5em;
   color: red;
@@ -838,7 +840,6 @@ footer {
       align-self: center;
   padding: .25em .5em;
   width: 50%;
-  margin-top: .5em;
   background: black;
   text-decoration: none;
   -webkit-transition: .15s ease-in-out;
