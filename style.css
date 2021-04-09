@@ -815,20 +815,19 @@ footer {
           flex-direction: column;
 }
 
-.footer-items .footer-form-container input {
+.footer-items .footer-form-container input, .footer-items .footer-form-container textarea {
   margin: .35em 0;
+  padding: .25em .5em;
 }
 
 .footer-items .footer-form-container input[type="text"], .footer-items .footer-form-container input[type="email"] {
   color: red;
-  padding: .25em .5em;
   outline: none;
   border: none;
 }
 
-.footer-items .footer-form-container input[type="textarea"] {
-  height: 50px;
-  padding: .25em .5em;
+.footer-items .footer-form-container textarea {
+  height: 75px;
   color: red;
   outline: none;
   border: none;
@@ -838,7 +837,6 @@ footer {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  padding: .25em .5em;
   width: 50%;
   background: black;
   text-decoration: none;

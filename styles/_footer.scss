@@ -47,25 +47,23 @@ footer{
 			display:flex;
 			flex-direction: column;
 		}
-		input{
+		input,textarea{
 			margin:.35em 0;
+			padding:.25em .5em;
 		}
 		input[type="text"], input[type="email"]{
 			color:red;
-			padding:.25em .5em;
 			outline:none;
 			border:none;
 		}
-		input[type="textarea"]{
-			height:50px;
-			padding:.25em .5em;
+		textarea{
+			height:75px;
 			color:red;
 			outline:none;
 			border:none;
 		}
 		input[type="submit"]{
 			align-self:center;
-			padding:.25em .5em;
 			width:50%;
 			background:black;
 			text-decoration: none;
