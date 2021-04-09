@@ -40,7 +40,6 @@ body{
 		display:none;
 	}
 	.footer-items{
-		height:450px;
 		div{
 			@include flex(center, center, column);
 			width:100%;
