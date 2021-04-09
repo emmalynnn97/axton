@@ -2,6 +2,11 @@
 	.mobile-nav-toggle, .toggle-text{
 		color:white !important;
 	}
+	.custom-logo-link{
+		&:hover{
+			transform:scale(.96);
+		}
+	}
 	background:black;
 	position:absolute;
 	right:0;

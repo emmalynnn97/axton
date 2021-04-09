@@ -45,6 +45,11 @@ footer{
 		color:white;
 		@include flex(flex-start, flex-start, column);
 	}
+	.footer-logo{
+		&:hover{
+			transform:scale(.96);
+		}
+	}
 }
 @media (max-width:$tablet-width){
 	.footer-insert{

@@ -15,7 +15,7 @@
 <?php get_template_part('template-parts/site', 'sidebar'); ?>
 <?php get_template_part('template-parts/footer', 'insert'); ?>
 <div class="footer-items">
-		<a href="/"><img src="/wp-content/uploads/2021/03/Axton_logo.png" alt="axton logo"/></a>
+		<a class="footer-logo" href="/"><img src="/wp-content/uploads/2021/03/Axton_logo.png" alt="axton logo"/></a>
 		<?php get_template_part('template-parts/footer', 'south-texas'); ?>
 		<?php get_template_part('template-parts/footer', 'west-texas'); ?>
 		<?php get_template_part('template-parts/footer', 'form'); ?>
