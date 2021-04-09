@@ -16,6 +16,7 @@
 @import "sidebar";
 @import "nav";
 @import "typography";
+@import "buttons";
 @import "footer";
 *, *::before, *::after{
 	margin:0;
@@ -26,18 +27,7 @@
 html {
   scroll-behavior: smooth;
 }
-.axton-btn{
-	background-image:url("/wp-content/uploads/2021/04/btn.png");
-	background-size:contain;
-	background-repeat:no-repeat;
-	width:175px;
-	text-align:center;
-	height:25px;
-	font-size:14px;
-	color:black;
-	text-decoration:none;
-	@include flex;
-}
+
 body{
 	background:white;
 }

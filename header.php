@@ -168,7 +168,7 @@
 						<?php
 					}
 					?>
-<a><img src="/wp-content/uploads/2021/03/Work_ready_btn.png" alt="work ready trucks link"/></a>
+<a class="work-ready-trucks-btn"><img src="/wp-content/uploads/2021/03/Work_ready_btn.png" alt="work ready trucks link"/></a>
 				</div><!-- .header-navigation-wrapper -->
 
 			</div><!-- .header-inner -->

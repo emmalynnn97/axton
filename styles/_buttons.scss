@@ -1,0 +1,23 @@
+.axton-btn{
+	background-image:url("/wp-content/uploads/2021/04/btn.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	width:175px;
+	text-align:center;
+	height:22px;
+	font-size:14px;
+    color:rgb(50,50,50);
+	text-decoration:none;
+    text-transform:uppercase;
+	@include flex;
+	&:hover{
+		transform:scale(.96);
+	}
+}
+.work-ready-trucks-btn{
+    margin-left:1em;
+    margin-top:7px;
+    &:hover{
+        transform:scale(1.06);
+    }
+}
