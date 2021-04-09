@@ -819,9 +819,6 @@ footer {
   margin: .35em 0;
   padding: .25em .5em;
   text-transform: uppercase;
-}
-
-.footer-items .footer-form-container input[type="text"], .footer-items .footer-form-container input[type="email"] {
   color: red;
   outline: none;
   border: none;
@@ -829,9 +826,6 @@ footer {
 
 .footer-items .footer-form-container textarea {
   height: 75px;
-  color: red;
-  outline: none;
-  border: none;
 }
 
 .footer-items .footer-form-container input[type="submit"] {
@@ -840,11 +834,11 @@ footer {
       align-self: center;
   width: 50%;
   background: black;
+  color: white;
   text-decoration: none;
   -webkit-transition: .15s ease-in-out;
   transition: .15s ease-in-out;
   border: 2px solid #ba171c;
-  outline: none;
 }
 
 .footer-items .footer-form-container input[type="submit"]:hover {

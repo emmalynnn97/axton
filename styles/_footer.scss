@@ -51,26 +51,21 @@ footer{
 			margin:.35em 0;
 			padding:.25em .5em;
 			text-transform:uppercase;
-		}
-		input[type="text"], input[type="email"]{
 			color:red;
 			outline:none;
 			border:none;
 		}
 		textarea{
 			height:75px;
-			color:red;
-			outline:none;
-			border:none;
 		}
 		input[type="submit"]{
 			align-self:center;
 			width:50%;
 			background:black;
+			color:white;
 			text-decoration: none;
 			transition:.15s ease-in-out;
 			border:2px solid $axton-red;
-			outline:none;
 			&:hover{
 				transform:scale(.96);
 			}
