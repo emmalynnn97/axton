@@ -818,6 +818,7 @@ footer {
 .footer-items .footer-form-container input, .footer-items .footer-form-container textarea {
   margin: .35em 0;
   padding: .25em .5em;
+  text-transform: uppercase;
 }
 
 .footer-items .footer-form-container input[type="text"], .footer-items .footer-form-container input[type="email"] {
