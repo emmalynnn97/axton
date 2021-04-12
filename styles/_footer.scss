@@ -84,11 +84,15 @@ footer{
 		}
 	}
 }
+@media(max-width:1024px){
+	.footer-logo{
+		width:170px;
+	}
+}
 @media (max-width:$tablet-width){
 	.footer-items{
 		>div{
-			margin:1em auto;
-		}
+			margin:1em auto;		}
 	}
 	.footer-form-container{
 		width:100%;

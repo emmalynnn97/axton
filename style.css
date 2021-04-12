@@ -872,6 +872,12 @@ footer {
           transform: scale(0.96);
 }
 
+@media (max-width: 1024px) {
+  .footer-logo {
+    width: 170px;
+  }
+}
+
 @media (max-width: 768px) {
   .footer-items > div {
     margin: 1em auto;
