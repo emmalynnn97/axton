@@ -599,8 +599,16 @@
 
 @font-face {
   font-family: "Akrobat-ExtraBold";
-  src: url("/fonts/Akrobat.eot");
-  src: url("/fonts/Akrobat.eot?#iefix") format("embedded-opentype"), url("/fonts/Akrobat.woff") format("woff"), url("/fonts/Akrobat.ttf") format("truetype"), url("/fonts/Akrobat.svg#Akrobat-ExtraBold") format("svg");
+  src: url("/wp-content/themes/axtontruck/fonts/Akrobat.eot");
+  src: url("/wp-content/themes/axtontruck/fonts/Akrobat.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/axtontruck/fonts/Akrobat.woff") format("woff"), url("/wp-content/themes/axtontruck/fonts/Akrobat.ttf") format("truetype"), url("/wp-content/themes/axtontruck/fonts/Akrobat.svg#Akrobat-ExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Akrobat-Regular";
+  src: url("/wp-content/themes/axtontruck/fonts/Akrobat.eot");
+  src: url("/wp-content/themes/axtontruck/fonts/Akrobat.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/axtontruck/fonts/Akrobat.woff") format("woff"), url("/wp-content/themes/axtontruck/fonts/Akrobat.ttf") format("truetype"), url("/wp-content/themes/axtontruck/fonts/Akrobat.svg#Akrobat-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -608,14 +616,17 @@
 h1, h2, h3, h4, h5, h6 {
   color: white;
   text-transform: uppercase;
-  font-family: "Akrobat-ExtraBold", Arial, sans-serif !important;
+  font-family: "Akrobat-ExtraBold", Arial, sans-serif;
+}
+
+h1, h2 {
   font-weight: 600 !important;
 }
 
 a {
   cursor: pointer;
   text-decoration: none !important;
-  font-family: "Akrobat", Arial, sans-serif !important;
+  font-family: "Akrobat-Regular", Arial, sans-serif;
   font-weight: 600;
 }
 
@@ -624,7 +635,7 @@ p {
   margin: 1em auto !important;
   font-weight: 700;
   color: white;
-  font-family: "Akrobat", Arial, sans-serif !important;
+  font-family: "Akrobat-Regular", Arial, sans-serif !important;
 }
 
 h4 {
