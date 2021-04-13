@@ -34,10 +34,38 @@ body{
 .header-toggles, .search-toggle, .footer-nav-widgets-wrapper{
 	display:none !important;
 }
+#menu-footer-insert-menu{
+	margin:0;
+	@include flex;
+	flex-wrap:wrap;
+	li {
+        position: relative;
+        list-style-type: none;
+		margin:0 1.25em;
+    }
 
+    li:before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: -35px;
+        width: 35px;
+        height: 35px;
+        background-image: url('http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/NUt.png');
+		background-size:contain;
+		background-repeat:no-repeat;
+    }
+}
 @media (max-width:$tablet-width){
 	.hide-tablet{
 		display:none;
+	}
+	#menu-footer-insert-menu{
+		@include flex(column,flex-start, center);
+		flex-direction: column !important;
+		li{
+			margin:0 !important;
+		}
 	}
 	.footer-items{
 		div{

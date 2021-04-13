@@ -1,7 +1,10 @@
 <div class="footer-insert">
-	<a><img class='nut' src="/wp-content/uploads/2021/03/NUt.png" alt="nut"/>About</a>
-	<a><img class='nut' src="/wp-content/uploads/2021/03/NUt.png" alt="nut"/>Contact</a>
-	<a><img class='nut' src="/wp-content/uploads/2021/03/NUt.png" alt="nut"/>Videos</a>
+	
+	<?php
+wp_nav_menu( array( 
+    'theme_location' => 'footer-insert-menu', 
+    'container_class' => 'custom-menu-class' ) ); 
+?>
 	<div class="footer-social-icons">
 	<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/AxtonFleetSystems1?ref=hl"><svg style="background:rgb(56,76,158);" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" fill="white" stroke-linecap="round" stroke-linejoin="round">
   		<path stroke="none" d="M0 0h24v24H0z" fill="none"/>

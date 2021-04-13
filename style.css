@@ -924,9 +924,65 @@ body {
   display: none !important;
 }
 
+#menu-footer-insert-menu {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#menu-footer-insert-menu li {
+  position: relative;
+  list-style-type: none;
+  margin: 0 1.25em;
+}
+
+#menu-footer-insert-menu li:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -35px;
+  width: 35px;
+  height: 35px;
+  background-image: url("http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/NUt.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 768px) {
   .hide-tablet {
     display: none;
+  }
+  #menu-footer-insert-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: column;
+        -ms-flex-pack: column;
+            justify-content: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: center;
+            flex-direction: center;
+    flex-direction: column !important;
+  }
+  #menu-footer-insert-menu li {
+    margin: 0 !important;
   }
   .footer-items div {
     display: -webkit-box;
