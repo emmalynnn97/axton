@@ -84,7 +84,7 @@ footer{
 		}
 	}
 }
-@media(max-width:1024px){
+@media(max-width:$laptop-width){
 	.footer-logo{
 		width:170px;
 	}
