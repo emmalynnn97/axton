@@ -798,6 +798,9 @@ footer {
   text-transform: uppercase;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background-image: url("/wp-content/uploads/2021/04/Track.png");
+  background-size: cover;
+  background-position: right;
 }
 
 .footer-items .footer-form-container {

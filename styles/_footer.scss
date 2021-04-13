@@ -41,6 +41,9 @@ footer{
 	background:rgb(34, 34, 34);
 	text-transform:uppercase;
 	flex-wrap:wrap;
+	background-image:url('/wp-content/uploads/2021/04/Track.png');
+	background-size:cover;
+	background-position:right;
 	.footer-form-container{
 		@include flex(center, center, column);
 		form{
