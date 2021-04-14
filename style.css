@@ -826,6 +826,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 275px;
 }
 
 .footer-items .footer-form-container input, .footer-items .footer-form-container textarea {
