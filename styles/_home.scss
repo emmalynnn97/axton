@@ -58,7 +58,6 @@
 	background:$axton-red;
 }
 .home-welcome{
-	min-height:$home-welcome-height;
 	@include flex(flex-start,center,column);
 	background-image:url("/wp-content/uploads/2021/03/Black_Background-scaled.jpg");
 	background-size:cover;

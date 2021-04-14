@@ -154,7 +154,6 @@
 }
 
 .home-welcome {
-  min-height: 45vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
