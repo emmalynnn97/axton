@@ -452,6 +452,9 @@
     font-size: 2em !important;
     top: -190px !important;
   }
+  .home-hero .direction img {
+    top: 67.5vh !important;
+  }
   .home-dealers-fleets {
     padding: 1em 2em;
   }
@@ -480,6 +483,9 @@
   .home-hero h1 {
     font-size: 1.25em !important;
     top: -175px !important;
+  }
+  .home-hero .direction img {
+    top: 75vh !important;
   }
   .home-dealers-fleets .home-dealers a, .home-dealers-fleets .home-fleets a {
     width: 100%;
