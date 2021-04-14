@@ -17,5 +17,4 @@ get_header();
 <?php get_template_part('template-parts/home', 'products'); ?>
 <?php get_template_part('template-parts/home', 'dealers'); ?>
 <?php get_template_part('template-parts/home', 'industries'); ?>
-<?php get_template_part('template-parts/home', 'map'); ?>
 <?php get_footer(); ?>
