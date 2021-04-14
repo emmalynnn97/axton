@@ -69,25 +69,6 @@
   }
 }
 
-.home-hero .hero-overlay {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  background: rgba(255, 255, 255, 0.5);
-  width: 100%;
-  min-height: 87.5vh;
-}
-
 .home-hero .direction {
   cursor: pointer;
 }
@@ -124,7 +105,8 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 2.75em;
-  font-weight: 500;
+  position: relative;
+  top: -150px;
 }
 
 .home-hero .hero-content span {
@@ -456,7 +438,21 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .home-hero h1 {
+    top: -225px !important;
+    font-size: 2.25em !important;
+  }
+}
+
 @media (max-width: 768px) {
+  .home-hero {
+    min-height: 70vh !important;
+  }
+  .home-hero h1 {
+    font-size: 2em !important;
+    top: -190px !important;
+  }
   .home-dealers-fleets {
     padding: 1em 2em;
   }
@@ -479,8 +475,12 @@
   .industry-outer .industry-card {
     width: 100% !important;
   }
+  .home-hero {
+    min-height: 80vh !important;
+  }
   .home-hero h1 {
-    font-size: 1.75em !important;
+    font-size: 1.25em !important;
+    top: -175px !important;
   }
   .home-dealers-fleets .home-dealers a, .home-dealers-fleets .home-fleets a {
     width: 100%;
