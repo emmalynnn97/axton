@@ -32,11 +32,11 @@
  * 
  */
 .home-hero {
-  background-image: url("/wp-content/uploads/2021/02/gallery-24.jpg");
+  background-image: url("/wp-content/uploads/2021/04/Top_background-copy.jpg");
   min-height: 87.5vh;
   width: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 @-webkit-keyframes bounce {
@@ -83,7 +83,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.5);
   width: 100%;
   min-height: 87.5vh;
 }
@@ -798,7 +798,7 @@ footer {
   text-transform: uppercase;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-image: url("/wp-content/uploads/2021/04/Track.png");
+  background-image: url("/wp-content/uploads/2021/04/Footer.jpg");
   background-size: cover;
   background-position: right;
 }
@@ -956,7 +956,7 @@ body {
   left: -35px;
   width: 35px;
   height: 35px;
-  background-image: url("http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/NUt.png");
+  background-image: url("/wp-content/uploads/2021/03/NUt.png");
   background-size: contain;
   background-repeat: no-repeat;
 }

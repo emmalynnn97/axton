@@ -1,4 +1,4 @@
-@include hero($home-hero-image, $home-hero-height, home-hero);
+@include hero($home-hero-image, $home-hero-height, home-hero, top);
 @keyframes bounce {
   0% {
 	transform:translateY(0);
