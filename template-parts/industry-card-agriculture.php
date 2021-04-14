@@ -1,5 +1,5 @@
 	<div class="industry-card">
-		<img src="/wp-content/uploads/2021/03/Agriculture.jpg" alt="commercial"/>
+		<img src="/wp-content/uploads/2021/04/e076832edfd1f2244f9b25d0214515c4.jpeg" alt="commercial"/>
 		<h5>
 			Agriculture
 		</h5>
