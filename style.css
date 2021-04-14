@@ -800,7 +800,7 @@ footer {
       flex-wrap: wrap;
   background-image: url("/wp-content/uploads/2021/04/Footer.jpg");
   background-size: cover;
-  background-position: right;
+  background-position: center;
 }
 
 .footer-items .footer-form-container {
