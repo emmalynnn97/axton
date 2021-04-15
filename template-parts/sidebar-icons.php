@@ -1,5 +1,4 @@
-<div class="axton-sidebar">
-	<a><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<a><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <rect x="4" y="4" width="16" height="16" rx="2" />
   <path d="M10 10l4 4m0 -4l-4 4" />
@@ -18,4 +17,3 @@
   <circle cx="12" cy="12" r="4" />
   <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
 </svg></a>
-</div>

@@ -12,7 +12,7 @@
  */
 
 ?>
-<?php get_template_part('template-parts/site', 'sidebar'); ?>
+<?php get_template_part('template-parts/sidebar', 'outer'); ?>
 <?php get_template_part('template-parts/footer', 'insert'); ?>
 <div class="footer-items">
 		<a class="footer-logo" href="/"><img src="/wp-content/uploads/2021/03/Axton_logo.png" alt="axton logo"/></a>
