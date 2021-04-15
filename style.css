@@ -65,6 +65,63 @@
  * Variables
  * 
  */
+#site-header {
+  background: black;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+#site-header .mobile-nav-toggle, #site-header .toggle-text {
+  color: white !important;
+}
+
+#site-header .custom-logo-link:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+#site-header .menu-item {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#site-header .menu-item a {
+  color: white;
+}
+
+#site-header .header-titles-wrapper {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+#site-header .header-inner {
+  padding: 1.25rem;
+}
+
+#site-header .custom-logo {
+  width: 175px;
+}
+
+.menu-modal-inner {
+  background: black;
+}
+
+.menu-modal-inner .menu-bottom {
+  display: none;
+}
+
+.menu-modal-inner .toggle {
+  color: white !important;
+}
+
+.menu-modal-inner .menu-item a {
+  color: white;
+}
+
 .home-hero {
   background-image: url("/wp-content/uploads/2021/04/Top_background-copy.jpg");
   min-height: 87.5vh;
@@ -503,82 +560,6 @@
           transform: scale(1.06);
 }
 
-#site-header {
-  background: black;
-  position: absolute;
-  right: 0;
-  width: 100%;
-}
-
-#site-header .mobile-nav-toggle, #site-header .toggle-text {
-  color: white !important;
-}
-
-#site-header .custom-logo-link:hover {
-  -webkit-transform: scale(0.96);
-          transform: scale(0.96);
-}
-
-#site-header .menu-item {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-#site-header .menu-item a {
-  color: white;
-}
-
-#site-header .header-titles-wrapper {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0;
-}
-
-#site-header .header-inner {
-  padding: 1.25rem;
-}
-
-#site-header .custom-logo {
-  width: 175px;
-}
-
-.menu-modal-inner {
-  background: black;
-}
-
-.menu-modal-inner .menu-bottom {
-  display: none;
-}
-
-.menu-modal-inner .toggle {
-  color: white !important;
-}
-
-.menu-modal-inner .menu-item a {
-  color: white;
-}
-
-@media (max-width: 768px) {
-  .toggle-inner {
-    padding-top: 0em !important;
-    height: auto !important;
-  }
-  .custom-logo {
-    width: 150px !important;
-  }
-}
-
-@media (max-width: 500px) {
-  .header-inner {
-    padding: 2rem 0 !important;
-  }
-  .custom-logo {
-    width: 100px !important;
-  }
-}
-
 @font-face {
   font-family: "Akrobat-ExtraBold";
   src: url("/wp-content/themes/axtontruck/fonts/Akrobat.eot");
@@ -970,6 +951,63 @@ body {
   .home-welcome {
     padding: 2em !important;
   }
+}
+
+#site-header {
+  background: black;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+#site-header .mobile-nav-toggle, #site-header .toggle-text {
+  color: white !important;
+}
+
+#site-header .custom-logo-link:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+#site-header .menu-item {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#site-header .menu-item a {
+  color: white;
+}
+
+#site-header .header-titles-wrapper {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+#site-header .header-inner {
+  padding: 1.25rem;
+}
+
+#site-header .custom-logo {
+  width: 175px;
+}
+
+.menu-modal-inner {
+  background: black;
+}
+
+.menu-modal-inner .menu-bottom {
+  display: none;
+}
+
+.menu-modal-inner .toggle {
+  color: white !important;
+}
+
+.menu-modal-inner .menu-item a {
+  color: white;
 }
 
 @media (max-width: 1024px) {
