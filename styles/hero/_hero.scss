@@ -1,0 +1,29 @@
+
+@include hero($home-hero-image, $home-hero-height, home-hero, top);
+.home-hero{
+	.direction{
+		cursor:pointer;
+			img{
+				position:absolute;
+				left:0;
+				right:0;
+				margin:auto;
+				top:84vh;
+				width:80px;
+				animation: 1s infinite bounce;
+			}
+		}
+	.hero-content{
+		@include flex($direction:column);
+		h1{
+			color:$axton-red;
+			text-transform:uppercase;
+			text-align:center;
+			font-size:$home-hero-heading-font-size;
+			position:relative;
+			top:-150px;
+		}
+		span{ color:black; }
+		a{ text-transform:uppercase; }
+	}
+}

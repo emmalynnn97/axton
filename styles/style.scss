@@ -12,6 +12,7 @@
  Text Domain:  axtontruck
 */
 @import "variables";
+@import "./hero/hero.scss";
 @import "home";
 @import "sidebar";
 @import "nav";
@@ -79,3 +80,4 @@ body{
 		padding:2em !important;
 	}
 }
+@import "./hero/media.scss";

@@ -1,0 +1,36 @@
+@media(max-width:$laptop-width){
+    .home-hero{
+		h1{
+			top:-225px !important;
+			font-size:2.25em !important;
+		}
+	}
+}
+@media(max-width:$tablet-width){
+    .home-hero{
+		min-height:70vh !important;
+		h1{
+			font-size:2em !important;
+			top:-190px !important;
+		}
+		.direction{
+			img{
+				top:67.5vh !important;
+			}
+		}
+	}
+}
+@media(max-width:$mobile-width){
+    .home-hero{
+		min-height:80vh !important;
+		h1{
+			font-size:1.25em !important;
+			top:-175px !important;
+		}
+		.direction{
+			img{
+				top:75vh !important;
+			}
+		}
+	}
+}

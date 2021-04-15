@@ -27,18 +27,10 @@
 *
 */
 /*
- * 
- * Variables
- * 
- */
-.home-hero {
-  background-image: url("/wp-content/uploads/2021/04/Top_background-copy.jpg");
-  min-height: 87.5vh;
-  width: 100%;
-  background-size: cover;
-  background-position: top;
-}
-
+  *
+  *	Animation to make the direction arrows bob up and down without causing CLS issues
+  *
+  */
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translateY(0);
@@ -53,7 +45,6 @@
             transform: translateY(0);
   }
 }
-
 @keyframes bounce {
   0% {
     -webkit-transform: translateY(0);
@@ -67,6 +58,19 @@
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
+}
+
+/*
+ * 
+ * Variables
+ * 
+ */
+.home-hero {
+  background-image: url("/wp-content/uploads/2021/04/Top_background-copy.jpg");
+  min-height: 87.5vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
 }
 
 .home-hero .direction {
@@ -437,24 +441,7 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .home-hero h1 {
-    top: -225px !important;
-    font-size: 2.25em !important;
-  }
-}
-
 @media (max-width: 768px) {
-  .home-hero {
-    min-height: 70vh !important;
-  }
-  .home-hero h1 {
-    font-size: 2em !important;
-    top: -190px !important;
-  }
-  .home-hero .direction img {
-    top: 67.5vh !important;
-  }
   .home-dealers-fleets {
     padding: 1em 2em;
   }
@@ -476,16 +463,6 @@
 @media (max-width: 500px) {
   .industry-outer .industry-card {
     width: 100% !important;
-  }
-  .home-hero {
-    min-height: 80vh !important;
-  }
-  .home-hero h1 {
-    font-size: 1.25em !important;
-    top: -175px !important;
-  }
-  .home-hero .direction img {
-    top: 75vh !important;
   }
   .home-dealers-fleets .home-dealers a, .home-dealers-fleets .home-fleets a {
     width: 100%;
@@ -1011,5 +988,38 @@ body {
 @media (max-width: 500px) {
   .home-welcome {
     padding: 2em !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .home-hero h1 {
+    top: -225px !important;
+    font-size: 2.25em !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-hero {
+    min-height: 70vh !important;
+  }
+  .home-hero h1 {
+    font-size: 2em !important;
+    top: -190px !important;
+  }
+  .home-hero .direction img {
+    top: 67.5vh !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-hero {
+    min-height: 80vh !important;
+  }
+  .home-hero h1 {
+    font-size: 1.25em !important;
+    top: -175px !important;
+  }
+  .home-hero .direction img {
+    top: 75vh !important;
   }
 }

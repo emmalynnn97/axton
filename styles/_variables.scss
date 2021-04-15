@@ -42,6 +42,22 @@
 	  font-style: normal;
 	}
   }
+  /*
+  *
+  *	Animation to make the direction arrows bob up and down without causing CLS issues
+  *
+  */
+  @keyframes bounce {
+	0% {
+	  transform:translateY(0);
+	}
+	50% {
+	  transform:translateY(-40px);
+	}
+	  100%{
+		  transform:translateY(0);
+	  }
+  }
 /*
  * 
  * Variables

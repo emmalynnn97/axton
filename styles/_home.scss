@@ -1,43 +1,6 @@
-@include hero($home-hero-image, $home-hero-height, home-hero, top);
-@keyframes bounce {
-  0% {
-	transform:translateY(0);
-  }
-  50% {
-	transform:translateY(-40px);
-  }
-	100%{
-		transform:translateY(0);
-	}
-}
 
-.home-hero{
-	.direction{
-		cursor:pointer;
-			img{
-				position:absolute;
-				left:0;
-				right:0;
-				margin:auto;
-				top:84vh;
-				width:80px;
-				animation: 1s infinite bounce;
-			}
-		}
-	.hero-content{
-		@include flex($direction:column);
-		h1{
-			color:$axton-red;
-			text-transform:uppercase;
-			text-align:center;
-			font-size:$home-hero-heading-font-size;
-			position:relative;
-			top:-150px;
-		}
-		span{ color:black; }
-		a{ text-transform:uppercase; }
-	}
-}
+
+
 .home-section{
 	@include flex;
 }
@@ -225,26 +188,10 @@
 	}
 }
 @media(max-width:$laptop-width){
-	.home-hero{
-		h1{
-			top:-225px !important;
-			font-size:2.25em !important;
-		}
-	}
+	
 }
 @media(max-width:$tablet-width){
-	.home-hero{
-		min-height:70vh !important;
-		h1{
-			font-size:2em !important;
-			top:-190px !important;
-		}
-		.direction{
-			img{
-				top:67.5vh !important;
-			}
-		}
-	}
+	
 	.home-dealers-fleets{
 		padding:1em 2em;
 		.home-dealers,.home-fleets{
@@ -268,18 +215,7 @@
 			width:100% !important;
 		}
 	}
-	.home-hero{
-		min-height:80vh !important;
-		h1{
-			font-size:1.25em !important;
-			top:-175px !important;
-		}
-		.direction{
-			img{
-				top:75vh !important;
-			}
-		}
-	}
+	
 	.home-dealers-fleets{
 		.home-dealers,.home-fleets{
 			a{
