@@ -20,6 +20,8 @@
             border-radius:0;
             padding:0;
             li{
+                border-top:1px solid black;
+                border-bottom:2px solid black;
                 height:unset;
                 width:inherit;
                 font-size:.8em;
@@ -27,8 +29,7 @@
                     transform:none;
                 }
             }
-            border-top:1px solid black;
-            border-bottom:2px solid black;
+        
             a{
                 padding:.5em 0;
             
