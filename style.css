@@ -194,21 +194,6 @@
           flex-direction: row;
 }
 
-.home-request {
-  min-height: 30vh;
-  background: #ba171c;
-}
-
-.home-videos {
-  height: 25vh;
-}
-
-.home-inventory {
-  min-height: 30vh;
-  background: black;
-  color: white;
-}
-
 .home-products {
   min-height: 25vh;
   background: #ba171c;
@@ -280,12 +265,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  color: white;
-}
-
-.home-map {
-  min-height: auto;
-  background: #ba171c;
   color: white;
 }
 

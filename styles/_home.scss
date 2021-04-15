@@ -3,18 +3,6 @@
 .home-section{
 	@include flex;
 }
-.home-request{
-	min-height:$home-request-height;
-	background:$axton-red;
-}
-.home-videos{ 
-	height:$home-videos-height; 
-}
-.home-inventory{
-	min-height:$home-inventory-height;
-	background:black;
-	color:white;
-}
 .home-products{
 	min-height:$home-products-height;
 	background:$axton-red;
@@ -55,11 +43,6 @@
   transform: perspective(10px) rotateX(1deg);
   margin: 50px;
 	@include flex;
-	color:white;
-}
-.home-map{
-	min-height:$home-map-height;
-	background:$axton-red;
 	color:white;
 }
 .home-industries{
