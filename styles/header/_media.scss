@@ -1,5 +1,15 @@
 @media(max-width:$laptop-width){
-
+    .header-inner{
+        padding:0 !important;
+    }
+    .menu-item{
+    height:109px !important;
+    }
+}
+@media(max-width:1000px){
+    .header-inner{
+        padding:2rem 0 !important;
+    }
 }
 @media(max-width:$tablet-width){
     .toggle-inner{

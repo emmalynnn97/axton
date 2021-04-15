@@ -15,13 +15,22 @@
 		text-transform:uppercase;
 		font-size:16px;
 		font-weight:700;
-		a{color:white;}
+        padding:0 .5em;
+        transition:.15s ease-in-out;
+		a{color:white;
+        height:100%;
+    width:100%;@include flex;}
+        height:calc(72px);
+        @include flex;
+        &:hover{
+            background:$axton-red;
+        }
 	}
 	.header-titles-wrapper{
 		justify-content: space-between;
 		padding:0;
 	}
-	.header-inner{padding:1.25rem}
+	.header-inner{padding:0;}
 	.custom-logo{width:175px;}
 }
 .menu-modal-inner{
