@@ -7,6 +7,9 @@
 			transform:scale(.96);
 		}
 	}
+    .primary-menu{
+        flex-wrap:nowrap !important;
+    }
 	background:black;
 	position:absolute;
 	right:0;
@@ -17,6 +20,7 @@
 		font-weight:700;
         padding:0 .5em;
         transition:.15s ease-in-out;
+        text-align: center;
 		a{color:white;
         height:100%;
     width:100%;@include flex;}
@@ -24,6 +28,10 @@
         @include flex;
         &:hover{
             background:$axton-red;
+            transform:skew(-10deg, 0);
+            a{
+                transform:skew(10deg, 0);
+            }
         }
 	}
 	.header-titles-wrapper{

@@ -1,9 +1,11 @@
 @media(max-width:$laptop-width){
     .header-inner{
         padding:0 !important;
+        width:95% !important;
     }
     .menu-item{
     height:109px !important;
+    margin:0 .15em !important;
     }
 }
 @media(max-width:1000px){
