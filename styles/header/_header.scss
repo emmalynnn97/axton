@@ -18,8 +18,8 @@
         .sub-menu{
             transform:translateY(-20px);
             border-radius:0;
+            padding:0;
             li{
-                padding:0;
                 height:unset;
                 width:inherit;
                 font-size:.8em;
@@ -27,8 +27,11 @@
                     transform:none;
                 }
             }
+            border-top:1px solid black;
+            border-bottom:2px solid black;
             a{
-                padding:0;
+                padding:.5em 0;
+            
             }
             background:$axton-red;
             &::after{

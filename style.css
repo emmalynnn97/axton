@@ -114,11 +114,13 @@
   -webkit-transform: translateY(-20px);
           transform: translateY(-20px);
   border-radius: 0;
+  padding: 0;
+  border-top: 1px solid black;
+  border-bottom: 2px solid black;
   background: #ba171c;
 }
 
 #site-header .menu-item .sub-menu li {
-  padding: 0;
   height: unset;
   width: inherit;
   font-size: .8em;
@@ -130,7 +132,7 @@
 }
 
 #site-header .menu-item .sub-menu a {
-  padding: 0;
+  padding: .5em 0;
 }
 
 #site-header .menu-item .sub-menu::after {
