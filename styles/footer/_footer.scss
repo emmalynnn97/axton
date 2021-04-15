@@ -88,23 +88,3 @@ footer{
 		}
 	}
 }
-@media(max-width:$laptop-width){
-	.footer-logo{
-		width:170px;
-	}
-}
-@media (max-width:$tablet-width){
-	.footer-items{
-		>div{
-			margin:1em auto;		}
-	}
-	.footer-form-container{
-		width:100%;
-	}
-	.footer-insert{
-		.footer-social-icons{
-			width:100%;
-			margin-top:.5em;
-		}
-	}
-}

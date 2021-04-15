@@ -869,25 +869,6 @@ footer {
           transform: scale(0.96);
 }
 
-@media (max-width: 1024px) {
-  .footer-logo {
-    width: 170px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer-items > div {
-    margin: 1em auto;
-  }
-  .footer-form-container {
-    width: 100%;
-  }
-  .footer-insert .footer-social-icons {
-    width: 100%;
-    margin-top: .5em;
-  }
-}
-
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -1021,5 +1002,24 @@ body {
   }
   .home-hero .direction img {
     top: 75vh !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer-logo {
+    width: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-items > div {
+    margin: 1em auto;
+  }
+  .footer-form-container {
+    width: 100%;
+  }
+  .footer-insert .footer-social-icons {
+    width: 100%;
+    margin-top: .5em;
   }
 }
