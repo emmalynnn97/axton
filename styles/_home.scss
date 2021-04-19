@@ -3,10 +3,7 @@
 .home-section{
 	@include flex;
 }
-.home-products{
-	min-height:$home-products-height;
-	background:$axton-red;
-}
+
 .home-welcome{
 	@include flex(flex-start,center,column);
 	background-image:url("/wp-content/uploads/2021/03/Black_Background-scaled.jpg");

@@ -1,6 +1,5 @@
-!(function(d){
 	var itemClassName = "product-item";
-    items = d.getElementsByClassName(itemClassName),
+    items = document.getElementsByClassName(itemClassName),
     totalItems = items.length,
     slide = 0,
     moving = true;
@@ -14,8 +13,8 @@ function setInitialClasses() {
 }
 // Set event listeners
 function setEventListeners() {
-  var next = d.getElementsByClassName('carousel-button-next')[0],
-      prev = d.getElementsByClassName('carousel-button-prev')[0];
+  var next = document.getElementsByClassName('carousel-button-next')[0],
+      prev = document.getElementsByClassName('carousel-button-prev')[0];
   next.addEventListener('click', moveNext);
   prev.addEventListener('click', movePrev);
 }
@@ -106,4 +105,3 @@ function initCarousel() {
 }
 
 initCarousel();
-}(document));

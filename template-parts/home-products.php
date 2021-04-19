@@ -1,16 +1,32 @@
 
 <div class="home-section home-products">
 	
-	<div class="product-slider-wrapper">
-		<div class="product-slider">
-			<div class="product-item initial">item 1</div>
-			<div class="product-item">item 2</div>
-      <div class="product-item">item 3</div>
-
-			<div class="carousel-button-next"></div>
-			<div class="carousel-button-prev"></div>
-
-		</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+		<span>Gooseneck Flatbed</span>
+	  </div>
+      <div class="swiper-slide">Gooseneck Flatbed</div>
+      <div class="swiper-slide">Platform Bodies</div>
+      <div class="swiper-slide">Platform Bodies</div>
+    </div>
+    <!-- Add Pagination -->
+	<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
 	</div>
+	
 </div>
-<script src='/wp-content/themes/axtontruck/js/products.js' type="text/javascript"></script>
+<a style="margin:0 auto;position:relative;top:-15px;" href="#" class="axton-btn">Learn More</a>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 50,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
