@@ -1086,6 +1086,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .swiper-container {
+    padding: 1em !important;
+  }
+}
+
 @media (max-width: 1024px) {
   .home-hero h1 {
     top: -225px !important;
