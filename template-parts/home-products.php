@@ -7,9 +7,22 @@
 	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
 		<span>Gooseneck Flatbed</span>
 	  </div>
-      <div class="swiper-slide">Gooseneck Flatbed</div>
-      <div class="swiper-slide">Platform Bodies</div>
-      <div class="swiper-slide">Platform Bodies</div>
+      <div class="swiper-slide">
+	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+		<span>Gooseneck Flatbed</span>
+	  </div>
+      <div class="swiper-slide">
+	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+		<span>Gooseneck Flatbed</span>
+	  </div>
+	  <div class="swiper-slide">
+	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+		<span>Gooseneck Flatbed</span>
+	  </div>
+	  <div class="swiper-slide">
+	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+		<span>Gooseneck Flatbed</span>
+	  </div>
     </div>
     <!-- Add Pagination -->
 	<div class="swiper-button-next"></div>
