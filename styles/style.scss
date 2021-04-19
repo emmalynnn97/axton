@@ -12,11 +12,13 @@
  Text Domain:  axtontruck
 */
 @import "variables";
+@import "./slider/slider";
 @import "./header/header";
 @import "home";
 @import "./sidebar/sidebar";
 @import "typography";
 @import "buttons";
+
 @import "./footer/footer";
 *, *::before, *::after{
 	margin:0;
@@ -80,5 +82,6 @@ body{
 	}
 }
 @import "./header/media";
-@import "./hero/media.scss";
-@import "./footer/media.scss"
+@import "./slider/media";
+@import "./hero/media";
+@import "./footer/media";
