@@ -33,13 +33,6 @@
 <a style="margin:0 auto;position:relative;top:-15px;" href="#" class="axton-btn">Learn More</a>
 
   <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 50,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
+  <script type="text/javascript" src="/wp-content/themes/axtontruck/js/products.js">
+   
   </script>
