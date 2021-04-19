@@ -69,6 +69,8 @@
   padding: 3.5em;
   height: 100%;
   width: 100%;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -79,6 +81,7 @@
 .swiper-slide {
   border: 2px solid #ba171c;
   padding: 1em;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
