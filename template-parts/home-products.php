@@ -1,6 +1,5 @@
 
 <div class="home-section home-products">
-	
 <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
