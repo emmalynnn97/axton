@@ -43,7 +43,8 @@
 	color:white;
 }
 .home-industries{
-	background:black;
+	background-image:url("/wp-content/uploads/2021/04/Background-scaled.jpg");
+	background-size:cover;
 	padding:2em 4em;
 	.direction{
 		cursor:pointer;
@@ -98,7 +99,7 @@
 	background-size:cover;
 	background-position:top;
 	padding:2em 4em;
-	background:black;
+	background-color:black;
 	.direction{
 		cursor:pointer;
 			img{

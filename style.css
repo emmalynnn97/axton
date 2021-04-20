@@ -406,7 +406,8 @@
 }
 
 .home-industries {
-  background: black;
+  background-image: url("/wp-content/uploads/2021/04/Background-scaled.jpg");
+  background-size: cover;
   padding: 2em 4em;
 }
 
@@ -498,7 +499,7 @@
   background-size: cover;
   background-position: top;
   padding: 2em 4em;
-  background: black;
+  background-color: black;
 }
 
 .home-dealers-fleets .direction {
@@ -785,6 +786,37 @@ h5 {
 }
 
 .axton-btn:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+.axton-btn-inverted {
+  background-image: url("/wp-content/uploads/2021/04/Learn-more-Button.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 165px;
+  text-align: center;
+  height: 22px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.axton-btn-inverted:hover {
   -webkit-transform: scale(0.96);
           transform: scale(0.96);
 }

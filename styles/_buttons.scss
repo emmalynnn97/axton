@@ -14,6 +14,22 @@
 		transform:scale(.96);
 	}
 }
+.axton-btn-inverted{
+	background-image:url("/wp-content/uploads/2021/04/Learn-more-Button.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	width:165px;
+	text-align:center;
+	height:22px;
+	font-size:14px;
+    color:white;
+	text-decoration:none;
+    text-transform:uppercase;
+	@include flex;
+	&:hover{
+		transform:scale(.96);
+	}
+}
 .work-ready-trucks-btn{
     margin-left:1em;
     margin-top:7px;
