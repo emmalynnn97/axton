@@ -17,8 +17,12 @@ footer{
 			}
 		}
 	}
+	li{
+		height:unset !important;
+		margin:0 1.25em !important;
+	}
 	a{
-		margin:0 .25em;
+
 		@include flex;
 		color:white;
 		text-decoration:none;
