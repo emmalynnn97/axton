@@ -1,4 +1,4 @@
-function adjustProductSlider(){
+function configureProductSlider(){
     if(window.innerWidth > 800){
         swiper = new Swiper('.swiper-container', {
             slidesPerView: 3,
@@ -41,9 +41,10 @@ function adjustProductSlider(){
     }
 }
 function setEventListeners(){
-    window.addEventListener('load',adjustProductSlider)
+  const resizeDelay = 250;
+  window.addEventListener('load', configureProductSlider);
     window.addEventListener('resize', ()=>{
-        setTimeout(adjustProductSlider,250)
+        setTimeout(configureProductSlider, resizeDelay);
     })
 }
 setEventListeners()
