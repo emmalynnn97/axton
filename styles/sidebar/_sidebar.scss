@@ -9,4 +9,5 @@
 	padding:$sidebar-padding;
 	a{ cursor:pointer; transition:.25s ease; }
 	a:hover{ transform:scale(1.06); }
+	z-index: 2;
 }

@@ -673,6 +673,7 @@
   top: 200px;
   right: 0px;
   padding: 0.15em 0.25em;
+  z-index: 2;
 }
 
 .axton-sidebar a {
