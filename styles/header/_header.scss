@@ -1,8 +1,8 @@
 #site-header{
-    li{
-        margin-left:0 !important;
-        font-size:15px !important;
-    }
+    background:black;
+	position:absolute;
+	right:0;
+	width:100%;
 	.mobile-nav-toggle, .toggle-text{
 		color:white !important;
 	}
@@ -14,56 +14,13 @@
     .primary-menu{
         flex-wrap:nowrap !important;
     }
-	background:black;
-	position:absolute;
-	right:0;
-	width:100%;
 	.menu-item{
-        .sub-menu{
-            box-shadow:0px 5px 5px #818181;
-            transform:translateY(-20px);
-            border-radius:0;
-            padding:0;
-            width:$menu-item-width;
-            li{
-                border-top:1px solid black;
-                border-bottom:2px solid black;
-                height:unset;
-                width:inherit;
-                font-size:.8em;
-                max-height:45px;
-                font-size:13px !important;
-                &:hover{
-                    transform:scale(1.06);
-                }
-            }
-        
-            a{
-                padding:.5em 0;
-            
-            }
-            background:$axton-red;
-            &::after{
-                display: none;
-            }
-        }
-    
-		text-transform:uppercase;
-		font-size:16px;
+        text-transform:uppercase;
 		font-weight:700;
         transition:.15s ease-in-out;
         text-align: center;
-        .icon,.icon::before,.icon::after{
-            display:none;
-        }
-		a{
-            color:white;
-        height:100%;
-    padding-right:0;
-    width:$menu-item-width;
-    @include flex;
-}
-
+        margin-left:0 !important;
+        font-size:15px !important;
         height:calc(72px);
         @include flex;
         &:hover{
@@ -73,6 +30,38 @@
                 transform:skew(10deg, 0);
             }
         }
+        a{
+            color:white;
+            height:100%;
+            padding-right:0;
+            width:$menu-item-width;
+            @include flex;
+        }
+        .sub-menu{
+            box-shadow:0px 5px 5px #818181;
+            transform:translateY(-20px);
+            border-radius:0;
+            padding:0;
+            width:$menu-item-width;
+            li{
+                background:$axton-red;
+                border-top:1px solid black;
+                border-bottom:2px solid black;
+                height:unset;
+                max-height:45px;
+                font-size:13px !important;
+                &:hover{
+                    transform:scale(1.06);
+                }
+                a{padding:.5em;}
+            }        
+            &::after{
+                display: none;
+            }
+        }
+        .icon,.icon::before,.icon::after{
+            display:none;
+        }  
 	}
 	.header-titles-wrapper{
 		justify-content: space-between;
