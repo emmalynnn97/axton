@@ -152,7 +152,6 @@
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
-  padding: 0 .35em !important;
   -webkit-transition: .15s ease-in-out;
   transition: .15s ease-in-out;
   text-align: center;
@@ -179,6 +178,7 @@
           transform: translateY(-20px);
   border-radius: 0;
   padding: 0;
+  width: 170px;
   background: #ba171c;
 }
 
@@ -191,8 +191,8 @@
 }
 
 #site-header .menu-item .sub-menu li:hover {
-  -webkit-transform: none;
-          transform: none;
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
 }
 
 #site-header .menu-item .sub-menu a {
@@ -210,8 +210,8 @@
 #site-header .menu-item a {
   color: white;
   height: 100%;
-  width: 100%;
   padding-right: 0;
+  width: 170px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -225,6 +225,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+#site-header .menu-item li {
+  margin: 0 !important;
 }
 
 #site-header .menu-item:hover {
