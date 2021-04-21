@@ -92,6 +92,10 @@
   font-weight: 700;
 }
 
+.swiper-slide-next {
+  color: #ba171c;
+}
+
 .swiper-slide {
   border: 2px solid #ba171c;
   padding: .5em;
@@ -111,22 +115,15 @@
           flex-direction: column;
 }
 
-.swiper-slide > div {
-  position: absolute;
-  height: 103%;
-  width: 75%;
-  border: 2px solid white;
-}
-
 .swiper-slide img {
   height: 100px;
   margin-bottom: 10px;
 }
 
 .swiper-slide span {
-  color: #ba171c;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: .9em;
 }
 
 #site-header {

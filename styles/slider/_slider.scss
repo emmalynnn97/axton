@@ -10,24 +10,22 @@
   color:$axton-red;
   font-weight:700;
 }
+.swiper-slide-next{
+  color:$axton-red;
+}
 .swiper-slide{
   border:2px solid $axton-red;
   padding:.5em;
   cursor:pointer;
-  >div{
-    position:absolute;
-    height:103%;
-    width:75%;
-    border:2px solid white;
-  }
+ 
   img{
     height:100px;
     margin-bottom:10px;
   }
   span{
-    color:$axton-red;
     font-weight:bold;
     text-transform: uppercase;
+    font-size:.9em;
   }
   @include flex(center,center,column);
 }
