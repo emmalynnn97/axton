@@ -156,7 +156,7 @@
   text-align: center;
   margin-left: 0 !important;
   font-size: 15px !important;
-  height: calc(72px);
+  height: 72px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
