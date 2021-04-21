@@ -48,15 +48,9 @@
   *
   */
   @keyframes bounce {
-	0% {
-	  transform:translateY(0);
-	}
-	50% {
-	  transform:translateY(-40px);
-	}
-	  100%{
-		  transform:translateY(0);
-	  }
+	0% {transform:translateY(0);}
+	50% {transform:translateY(-40px);}
+	100%{transform:translateY(0);}
   }
 /*
  * 
@@ -68,7 +62,6 @@ $home-hero-heading-font-size: 2.75em;
 $home-hero-image: "/wp-content/uploads/2021/04/Top_background-copy.jpg";
 
 $axton-red: rgb(186,23,28);
-$axton-white-see-through: rgba(255,255,255,.5);
 
 $sidebar-height: 175px;
 $sidebar-width:35px;
@@ -76,13 +69,7 @@ $sidebar-top: 200px;
 $sidebar-right:0px;
 $sidebar-padding:.15em .25em;
 
-$home-request-height:30vh;
-$home-videos-height:25vh;
-$home-inventory-height:30vh;
-$home-products-height:25vh;
-$home-map-height:auto;
-
-$home-welcome-height:45vh;
+$industries-background:"/wp-content/uploads/2021/04/Background-scaled.jpg";
 
 $menu-item-width:180px;
 
