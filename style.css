@@ -134,6 +134,10 @@
   width: 100%;
 }
 
+#site-header li {
+  margin-left: 0 !important;
+}
+
 #site-header .mobile-nav-toggle, #site-header .toggle-text {
   color: white !important;
 }
@@ -225,10 +229,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}
-
-#site-header .menu-item li {
-  margin: 0 !important;
 }
 
 #site-header .menu-item:hover {
@@ -831,8 +831,7 @@ h5 {
 }
 
 .work-ready-trucks-btn {
-  margin-left: 1em;
-  margin-top: 7px;
+  margin-left: .5em;
 }
 
 .work-ready-trucks-btn:hover {

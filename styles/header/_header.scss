@@ -1,4 +1,7 @@
 #site-header{
+    li{
+        margin-left:0 !important;
+    }
 	.mobile-nav-toggle, .toggle-text{
 		color:white !important;
 	}
@@ -57,9 +60,7 @@
     width:170px;
     @include flex;
 }
-li{
-    margin:0 !important;
-}
+
         height:calc(72px);
         @include flex;
         &:hover{
