@@ -183,7 +183,7 @@
           transform: translateY(-20px);
   border-radius: 0;
   padding: 0;
-  width: 170px;
+  width: 180px;
   background: #ba171c;
 }
 
@@ -218,7 +218,7 @@
   color: white;
   height: 100%;
   padding-right: 0;
-  width: 170px;
+  width: 180px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
