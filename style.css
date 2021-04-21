@@ -94,10 +94,11 @@
 
 .swiper-slide-next {
   color: #ba171c;
+  border: 2px solid #ba171c !important;
 }
 
 .swiper-slide {
-  border: 2px solid #ba171c;
+  border: 2px solid black;
   padding: .5em;
   cursor: pointer;
   display: -webkit-box;
