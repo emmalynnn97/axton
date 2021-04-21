@@ -40,10 +40,10 @@ function adjustProductSlider(){
           });
     }
 }
-function addEventListeners(){
+function setEventListeners(){
     window.addEventListener('load',adjustProductSlider)
     window.addEventListener('resize', ()=>{
         setTimeout(adjustProductSlider,250)
     })
 }
-addEventListeners()
+setEventListeners()
