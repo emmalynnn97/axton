@@ -136,6 +136,7 @@
 
 #site-header li {
   margin-left: 0 !important;
+  font-size: 15px !important;
 }
 
 #site-header .mobile-nav-toggle, #site-header .toggle-text {
@@ -193,6 +194,7 @@
   width: inherit;
   font-size: .8em;
   max-height: 45px;
+  font-size: 13px !important;
 }
 
 #site-header .menu-item .sub-menu li:hover {

@@ -1,6 +1,7 @@
 #site-header{
     li{
         margin-left:0 !important;
+        font-size:15px !important;
     }
 	.mobile-nav-toggle, .toggle-text{
 		color:white !important;
@@ -31,6 +32,7 @@
                 width:inherit;
                 font-size:.8em;
                 max-height:45px;
+                font-size:13px !important;
                 &:hover{
                     transform:scale(1.06);
                 }
