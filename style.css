@@ -1154,9 +1154,6 @@ body {
   .header-inner {
     padding: 2rem 0 !important;
   }
-}
-
-@media (max-width: 768px) {
   .modal-menu .menu-item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1172,11 +1169,15 @@ body {
         -ms-flex-direction: row;
             flex-direction: row;
     margin: 0;
+    text-transform: uppercase;
   }
   .modal-menu .sub-menu.active {
     background: black;
     z-index: 99;
   }
+}
+
+@media (max-width: 768px) {
   .toggle-inner {
     padding-top: 0em !important;
     height: auto !important;
