@@ -43,10 +43,10 @@
 	color:white;
 }
 .home-industries{
-	background-image:url("http://localhost:10008/wp-content/uploads/2021/04/Background_new-scaled.jpg");
+	background-image:url("/wp-content/uploads/2021/04/Background-copy-scaled.jpg");
 	background-size:cover;
-	background-position:top;
 	background-attachment:fixed;
+	background-position:50% 80%;
 	padding:2em 4em;
 	.direction{
 		cursor:pointer;
@@ -97,10 +97,10 @@
 }
 }
 .home-dealers-fleets{
-	background-image:url("http://localhost:10008/wp-content/uploads/2021/04/Background_new-scaled.jpg");
+	background-image:url("/wp-content/uploads/2021/04/Background-copy-scaled.jpg");
 	background-size:cover;
-	background-position:bottom;
 	background-attachment:fixed;
+	background-position:50% 20%;
 	padding:2em 4em;
 	.direction{
 		cursor:pointer;
