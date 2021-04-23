@@ -3,30 +3,30 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-		<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+		<img src="/wp-content/uploads/2021/04/Industrial_pic.png" alt="gooseneck flatbed"/>
 		<span>Gooseneck Flatbed</span>
 	  </div>
       <div class="swiper-slide">
 	
-	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+	  	<img src="/wp-content/uploads/2021/04/Industrial_pic.png" alt="gooseneck flatbed"/>
 		<span>Platform Bodies</span>
 	  </div>
       <div class="swiper-slide">
 	 
-	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+	  	<img src="/wp-content/uploads/2021/04/Industrial_pic.png" alt="gooseneck flatbed"/>
 		<span>Service Bodies</span>
 	  </div>
 	  <div class="swiper-slide">
 	 
-	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+	  	<img src="/wp-content/uploads/2021/04/Industrial_pic.png" alt="gooseneck flatbed"/>
 		<span>Crane Bodies</span>
 	  </div>
 	  <div class="swiper-slide">
-	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+	  	<img src="/wp-content/uploads/2021/04/Industrial_pic.png" alt="gooseneck flatbed"/>
 		<span>Dump Bodies</span>
 	  </div>
 	  <div class="swiper-slide">
-	  	<img src="http://axtontruck2021.wpengine.com/wp-content/uploads/2021/03/Municipal.jpg" alt="gooseneck flatbed"/>
+	  	<img src="/wp-content/uploads/2021/04/Industrial_pic.png" alt="gooseneck flatbed"/>
 		<span>Van Equipment</span>
 	  </div>
     </div>
