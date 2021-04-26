@@ -667,7 +667,39 @@
   min-height: 55vh;
   width: 100%;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
+}
+
+.products-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.products-hero h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  background: #ba171c;
+  padding: .25em .15em .25em .5em;
+  border: 2px solid #ba171c;
+}
+
+.products-hero h1 span {
+  background: white;
+  color: #ba171c;
+  padding: .1em .25em;
+  color: gray;
 }
 
 .axton-sidebar {
@@ -1229,6 +1261,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .products-hero h1 {
+    font-size: 1.5em !important;
+  }
   .home-hero {
     min-height: 70vh !important;
   }
@@ -1242,6 +1277,9 @@ body {
 }
 
 @media (max-width: 500px) {
+  .products-hero h1 {
+    font-size: 1.25em !important;
+  }
   .home-hero {
     min-height: 80vh !important;
   }

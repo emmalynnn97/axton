@@ -1,1 +1,18 @@
-@include hero($products-hero-image, $products-hero-height, products-hero, bottom);
+@include hero($products-hero-image, $products-hero-height, products-hero, top);
+.products-hero{
+    @include flex;
+    h1{
+        margin:0;
+        text-align: center;
+        font-size:2em;
+        background:$axton-red;
+        padding:.25em .15em .25em .5em;
+        border:2px solid $axton-red;
+        span{
+            background:white;
+            color:$axton-red;
+            padding:.1em .25em;
+            color:gray;
+        }
+    }
+}
