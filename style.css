@@ -664,7 +664,7 @@
 
 .products-hero {
   background-image: url("/wp-content/uploads/2021/04/Top_Image.jpg");
-  min-height: 55vh;
+  min-height: 60vh;
   width: 100%;
   background-size: cover;
   background-position: top;
@@ -1278,7 +1278,7 @@ body {
 
 @media (max-width: 500px) {
   .products-hero h1 {
-    font-size: 1.25em !important;
+    font-size: 1em !important;
   }
   .home-hero {
     min-height: 80vh !important;
