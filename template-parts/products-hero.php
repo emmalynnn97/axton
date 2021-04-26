@@ -1,3 +1,3 @@
 <div class="products-hero">
-	Hero text
+    <?php get_template_part('template-parts/products', 'hero-content') ?>	
 </div>
