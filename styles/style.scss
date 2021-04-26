@@ -15,11 +15,12 @@
 @import "./slider/slider";
 @import "./header/header";
 @import "home";
+@import "products";
 @import "./sidebar/sidebar";
 @import "typography";
 @import "buttons";
-
 @import "./footer/footer";
+
 *, *::before, *::after{
 	margin:0;
 	padding:0;
