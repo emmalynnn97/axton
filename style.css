@@ -535,12 +535,8 @@
           animation: 1s infinite bounce;
 }
 
-.home-dealers-fleets .home-dealers {
+.home-dealers-fleets .home-dealers, .home-dealers-fleets .home-fleets {
   margin-bottom: 1em;
-}
-
-.home-dealers-fleets .home-fleets {
-  margin-bottom: 3em;
 }
 
 .home-dealers-fleets .home-dealers, .home-dealers-fleets .home-fleets {
