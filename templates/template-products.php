@@ -13,5 +13,6 @@ get_header();
 ?>
 
 <?php get_template_part('template-parts/products', 'hero'); ?>
+<?php get_template_part('template-parts/products', 'categories'); ?>
 
 <?php get_footer(); ?>

@@ -702,6 +702,14 @@
   color: gray;
 }
 
+.products-categories {
+  padding: .5em 3em;
+}
+
+.products-categories .products-copy {
+  color: black;
+}
+
 .axton-sidebar {
   display: -webkit-box;
   display: -ms-flexbox;
