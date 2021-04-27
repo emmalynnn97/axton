@@ -1,5 +1,17 @@
 @include hero($products-hero-image, $products-hero-height, products-hero, top);
 .products-hero{
+    .direction{
+		cursor:pointer;
+			img{
+				position:absolute;
+				left:0;
+				right:0;
+				margin:auto;
+				top:59vh;
+				width:80px;
+				animation: 1s infinite bounce;
+			}
+		}
     @include flex;
     h1{
         margin:0;

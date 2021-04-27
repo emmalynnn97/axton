@@ -1,22 +1,53 @@
 
 @import "./hero/hero-products";
 .products-categories{
+    background-image:url($products-categories-bg);
+    background-size:cover;
+    background-position: center;
     color:black;
     padding:.5em 3em;
     p,h2{
         color:black;
     }
     h2{
-        font-size:1.35em;
-        margin:0;
+        font-size:1.25em;
+        margin:.5em 0 0 0 ;
+        align-self: flex-start;
     }
     .product-card{
         width:30%;
-        border:2px solid black;
         margin:.5em .5em;
+        padding:.5em;
+        @include flex(center,center,column);
+        a{
+            width:100%;
+            text-align: center;
+            border:2px solid $axton-red;
+            padding:.5em 0;
+            text-transform: uppercase;
+            color:$axton-red;
+            background:white;
+            transition:.25s ease-in-out;
+            &:hover{
+                transform:scale(.96);
+            }
+        }
     }
     .products-cards-container{
         @include flex(center, center);
         flex-wrap:wrap;
+    }
+}
+@media(max-width:$laptop-width){
+    .product-card{
+        width:45% !important;
+    }
+}
+@media(max-width:$tablet-width){
+    
+}
+@media(max-width:$mobile-width){
+    .product-card{
+        width:90% !important;
     }
 }

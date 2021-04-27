@@ -686,6 +686,21 @@
           flex-direction: row;
 }
 
+.products-hero .direction {
+  cursor: pointer;
+}
+
+.products-hero .direction img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 59vh;
+  width: 80px;
+  -webkit-animation: 1s infinite bounce;
+          animation: 1s infinite bounce;
+}
+
 .products-hero h1 {
   margin: 0;
   text-align: center;
@@ -703,6 +718,9 @@
 }
 
 .products-categories {
+  background-image: url("/wp-content/uploads/2021/04/White_back.png");
+  background-size: cover;
+  background-position: center;
   color: black;
   padding: .5em 3em;
 }
@@ -712,14 +730,46 @@
 }
 
 .products-categories h2 {
-  font-size: 1.35em;
-  margin: 0;
+  font-size: 1.25em;
+  margin: .5em 0 0 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .products-categories .product-card {
   width: 30%;
-  border: 2px solid black;
   margin: .5em .5em;
+  padding: .5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.products-categories .product-card a {
+  width: 100%;
+  text-align: center;
+  border: 2px solid #ba171c;
+  padding: .5em 0;
+  text-transform: uppercase;
+  color: #ba171c;
+  background: white;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.products-categories .product-card a:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
 }
 
 .products-categories .products-cards-container {
@@ -738,6 +788,18 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .product-card {
+    width: 45% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .product-card {
+    width: 90% !important;
+  }
 }
 
 .axton-sidebar {
