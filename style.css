@@ -794,7 +794,7 @@
 
 @media (max-width: 500px) {
   .product-card {
-    width: 90% !important;
+    width: 100% !important;
   }
 }
 
