@@ -1,8 +1,22 @@
 
 @import "./hero/hero-products";
 .products-categories{
+    color:black;
     padding:.5em 3em;
-    .products-copy{
+    p,h2{
         color:black;
+    }
+    h2{
+        font-size:1.35em;
+        margin:0;
+    }
+    .product-card{
+        width:30%;
+        border:2px solid black;
+        margin:.5em .5em;
+    }
+    .products-cards-container{
+        @include flex(center, center);
+        flex-wrap:wrap;
     }
 }
