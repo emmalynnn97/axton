@@ -1183,6 +1183,12 @@ footer {
           transform: scale(0.96);
 }
 
+@media (min-width: 1700px) {
+  .home-hero {
+    background-position: 50% 25% !important;
+  }
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
