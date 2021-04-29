@@ -12,18 +12,8 @@
  */
 
 ?>
-<script type="text/javascript">
-	const btns = document.querySelectorAll('.axton-btn');
-	btns.forEach(btn=>{
-		btn.addEventListener('mouseenter', ()=>{
-			btn.classList.remove('axton-btn');
-			btn.classList.add('axton-btn-inverted');
-		})
-		btn.addEventListener('mouseleave', ()=>{
-			btn.classList.remove('axton-btn-inverted');
-			btn.classList.add('axton-btn');
-		})
-	})
+  <script type="text/javascript" src="/wp-content/themes/axtontruck/js/footer.js">
+	
 </script>
 <?php get_template_part('template-parts/sidebar', 'outer'); ?>
 <?php get_template_part('template-parts/footer', 'insert'); ?>
