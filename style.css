@@ -128,7 +128,7 @@
 }
 
 #site-header {
-  background: black;
+  background: #231f20;
   position: absolute;
   right: 0;
   width: 100%;
@@ -1004,7 +1004,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background: black;
+  background: #231f20;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: .5em 0;

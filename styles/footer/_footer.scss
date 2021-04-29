@@ -3,7 +3,7 @@ footer{
 }
 .footer-insert{
 	@include flex;
-	background:black;
+	background:#231f20;
 	flex-wrap:wrap;
 	padding:.5em 0;
 	.footer-social-icons{
