@@ -36,9 +36,7 @@
 	</div>
 	
 </div>
-<a style="margin:0 auto;position:relative;top:-15px;" href="#" class="axton-btn-inverted">Learn More</a>
+<a style="margin:0 auto;position:relative;top:-15px;" href="#" class="axton-btn">Learn More</a>
 
   <!-- Initialize Swiper -->
-  <script type="text/javascript" src="/wp-content/themes/axtontruck/js/products.js">
-   
-  </script>
+  <script type="text/javascript" src="/wp-content/themes/axtontruck/js/products.js"></script>
