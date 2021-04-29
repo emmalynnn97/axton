@@ -10,9 +10,6 @@
 	text-decoration:none;
     text-transform:uppercase;
 	@include flex;
-	&:hover{
-		transform:scale(.96);
-	}
 }
 .axton-btn-inverted{
 	background-image:url("/wp-content/uploads/2021/04/Learn-more-Button.png");
@@ -26,9 +23,6 @@
 	text-decoration:none;
     text-transform:uppercase;
 	@include flex;
-	&:hover{
-		transform:scale(.96);
-	}
 }
 .work-ready-trucks-btn{
     margin-left:.5em;
