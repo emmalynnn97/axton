@@ -1000,6 +1000,43 @@ footer {
   padding: .5em 0;
 }
 
+.footer-insert #menu-footer-insert-menu {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-insert #menu-footer-insert-menu li {
+  position: relative;
+  list-style-type: none;
+  margin: 0 1.25em;
+}
+
+.footer-insert #menu-footer-insert-menu li:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  width: 25px;
+  height: 20px;
+  background-image: url("/wp-content/uploads/2021/04/NUT-copy.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .footer-insert .footer-social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1051,6 +1088,7 @@ footer {
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 .footer-insert a:hover {
@@ -1196,43 +1234,6 @@ body {
 
 .header-toggles, .search-toggle, .footer-nav-widgets-wrapper {
   display: none !important;
-}
-
-#menu-footer-insert-menu {
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#menu-footer-insert-menu li {
-  position: relative;
-  list-style-type: none;
-  margin: 0 1.25em;
-}
-
-#menu-footer-insert-menu li:before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: -35px;
-  width: 35px;
-  height: 35px;
-  background-image: url("/wp-content/uploads/2021/03/NUt.png");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {

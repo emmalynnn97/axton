@@ -6,6 +6,28 @@ footer{
 	background:#231f20;
 	flex-wrap:wrap;
 	padding:.5em 0;
+	#menu-footer-insert-menu{
+		margin:0;
+		@include flex;
+		flex-wrap:wrap;
+		li {
+			position: relative;
+			list-style-type: none;
+			margin:0 1.25em;
+		}
+	
+		li:before {
+			content: "";
+			position: absolute;
+			top: 0px;
+			left: -30px;
+			width: 25px;
+			height: 20px;
+			background-image: url('/wp-content/uploads/2021/04/NUT-copy.png');
+			background-size:contain;
+			background-repeat:no-repeat;
+		}
+	}
 	.footer-social-icons{
 		@include flex;
 		svg{
@@ -28,6 +50,7 @@ footer{
 		text-decoration:none;
 		font-weight:700;
 		text-transform:uppercase;
+		font-size:14px;
         &:hover{
             transform:scale(1.06);
         }
