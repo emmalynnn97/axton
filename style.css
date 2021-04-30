@@ -168,6 +168,7 @@
   margin-left: 0 !important;
   font-size: 15px !important;
   height: 110px;
+  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -796,6 +797,38 @@
   .product-card {
     width: 100% !important;
   }
+}
+
+.interior-hero {
+  background-image: url("/wp-content/uploads/2021/04/top_pic.jpg");
+  min-height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.interior-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.interior-hero h1 {
+  margin: 0;
+  font-size: 2em;
+  padding: .25em 2em;
+  color: #5e5e5e;
+  background-color: #ba171c;
 }
 
 .axton-sidebar {

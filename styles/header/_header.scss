@@ -30,6 +30,7 @@
         margin-left:0 !important;
         font-size:15px !important;
         height:110px;
+        text-decoration: none;
         @include flex;
         &:hover{
             background:$axton-red;

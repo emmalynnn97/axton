@@ -1,0 +1,12 @@
+@include hero($interior-hero-image, $interior-hero-height, interior-hero, center);
+.interior-hero{
+    @include flex(center, flex-end);
+    h1{
+        margin:0;
+        font-size:2em;
+        padding:.25em 2em;
+        color:rgb(94,94,94);
+        background-color:$axton-red;
+       
+    }
+}
