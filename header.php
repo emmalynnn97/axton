@@ -183,7 +183,7 @@
 				get_template_part( 'template-parts/modal-search' );
 			}
 			?>
-
+		<script type="text/javascript" src="/wp-content/themes/axtontruck/js/header.js"></script>
 		</header><!-- #site-header -->
 
 		<?php

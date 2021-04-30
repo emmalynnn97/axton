@@ -128,7 +128,8 @@
 
 #site-header {
   background: #231f20;
-  position: absolute;
+  position: fixed;
+  z-index: 2;
   right: 0;
   width: 100%;
 }
@@ -166,7 +167,7 @@
   text-align: center;
   margin-left: 0 !important;
   font-size: 15px !important;
-  height: 72px;
+  height: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,7 +229,7 @@
   border-top: 1px solid black;
   border-bottom: 2px solid black;
   height: unset;
-  max-height: 45px;
+  max-height: 35px;
   font-size: 13px !important;
 }
 
