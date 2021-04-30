@@ -839,6 +839,17 @@
   padding: .25em;
 }
 
+.interior-content {
+  padding: 2em 4.5em;
+  border-top: 17px solid #ba171c;
+}
+
+.interior-content p {
+  color: #5e5e5e;
+  font-weight: 500;
+  font-size: 14px;
+}
+
 .axton-sidebar {
   display: -webkit-box;
   display: -ms-flexbox;
