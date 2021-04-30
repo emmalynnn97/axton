@@ -14,5 +14,5 @@ get_header();
 
 <?php get_template_part('template-parts/interior', 'hero'); ?>
 <?php get_template_part('template-parts/interior', 'content'); ?>
-
+<?php get_template_part('template-parts/interior', 'quote-inventory'); ?>
 <?php get_footer(); ?>
