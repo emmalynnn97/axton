@@ -850,6 +850,73 @@
   font-size: 14px;
 }
 
+.quote-inventory-outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.quote-inventory-outer h2 {
+  font-size: 1.25em;
+  margin: 0 0 2px 0;
+}
+
+.quote-inventory-outer p {
+  font-weight: 500;
+  margin: 0 0 1.5em 0 !important;
+}
+
+.quote-inventory-outer .quote, .quote-inventory-outer .inventory {
+  height: 225px;
+  width: 50%;
+  padding: 1.5em 4.5em;
+}
+
+.quote-inventory-outer .quote {
+  background: #d2d2d2;
+}
+
+.quote-inventory-outer .quote h2 {
+  color: black;
+}
+
+.quote-inventory-outer .quote p {
+  color: black;
+}
+
+.quote-inventory-outer .inventory {
+  background: #ba171c;
+}
+
+.quote-inventory-outer .inventory h2 {
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .quote-inventory-outer h2 {
+    font-size: 1em !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .quote-inventory-outer .quote, .quote-inventory-outer .inventory {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+
 .axton-sidebar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1026,6 +1093,36 @@ h5 {
 .work-ready-trucks-btn:hover {
   -webkit-transform: scale(1.06);
           transform: scale(1.06);
+}
+
+.axton-quote-btn, .axton-inventory-btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  padding: .5em 2em;
+  -webkit-transition: .15s ease-in-out;
+  transition: .15s ease-in-out;
+}
+
+.axton-quote-btn {
+  color: black;
+  border: 2px solid black;
+}
+
+.axton-quote-btn:hover {
+  background: black;
+  color: #d2d2d2;
+}
+
+.axton-inventory-btn {
+  color: white;
+  border: 2px solid white;
+}
+
+.axton-inventory-btn:hover {
+  background: white;
+  color: #ba171c;
 }
 
 footer {

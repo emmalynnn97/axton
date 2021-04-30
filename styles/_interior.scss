@@ -8,3 +8,50 @@
         font-size:14px;
     }
 }
+.quote-inventory-outer{
+    @include flex;
+    flex-wrap:wrap;
+    h2{
+        font-size:1.25em;
+        margin:0 0 2px 0;
+    }
+    p{
+        font-weight:500;
+        margin:0 0 1.5em 0 !important;
+    }
+    .quote,.inventory{
+        height:225px;
+        width:50%;
+        padding:1.5em 4.5em;
+    }
+    .quote{
+        background:rgb(210,210,210);
+        h2{
+            color:black;
+        }
+        p{
+            color:black;
+        }
+    }
+    .inventory{
+        background:$axton-red;
+        h2{
+            color:white;
+        }
+    }
+}
+@media(max-width:$laptop-width){
+    .quote-inventory-outer{
+        h2{
+            font-size:1em !important;
+        }
+    }
+}
+@media(max-width:$tablet-width){
+    .quote-inventory-outer{
+        .quote, .inventory{
+            width:100% !important;
+            text-align: center;
+        }
+    }
+}

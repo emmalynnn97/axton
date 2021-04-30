@@ -30,3 +30,27 @@
         transform:scale(1.06);
     }
 }
+.axton-quote-btn, .axton-inventory-btn{
+	font-size:14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight:500;
+	padding:.5em 2em;
+	transition:.15s ease-in-out;
+}
+.axton-quote-btn{
+	color:black;
+	border:2px solid black;
+	&:hover{
+        background:black;
+		color:#d2d2d2;
+    }
+}
+.axton-inventory-btn{
+	color:white;
+	border:2px solid white;
+	&:hover{
+        background:white;
+		color:$axton-red;
+    }
+}
