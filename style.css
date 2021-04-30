@@ -811,9 +811,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -824,11 +824,18 @@
 }
 
 .interior-hero h1 {
+  width: 50%;
   margin: 0;
   font-size: 2em;
-  padding: .25em 2em;
-  color: #5e5e5e;
+  padding: .5em .25em;
+  color: #dddddd;
   background-color: #ba171c;
+}
+
+.interior-hero h1 span {
+  color: #5e5e5e;
+  background: white;
+  padding: .25em;
 }
 
 .axton-sidebar {
