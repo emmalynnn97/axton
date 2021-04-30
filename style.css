@@ -824,12 +824,13 @@
 }
 
 .interior-hero h1 {
-  width: 50%;
+  width: 45%;
   margin: 0;
   font-size: 2em;
   padding: .5em .25em;
   color: #dddddd;
   background-color: #ba171c;
+  text-align: right;
 }
 
 .interior-hero h1 span {
@@ -1335,6 +1336,9 @@ body {
 }
 
 @media (max-width: 1000px) {
+  #site-header {
+    top: 0;
+  }
   .header-inner {
     padding: 2rem 0 !important;
   }
@@ -1391,9 +1395,15 @@ body {
     top: -225px !important;
     font-size: 2.25em !important;
   }
+  .interior-hero h1 {
+    width: 60%;
+  }
 }
 
 @media (max-width: 768px) {
+  .interior-hero h1 {
+    width: 75%;
+  }
   .products-hero h1 {
     font-size: 1.5em !important;
   }
@@ -1410,6 +1420,9 @@ body {
 }
 
 @media (max-width: 500px) {
+  .interior-hero h1 {
+    font-size: 1em;
+  }
   .products-hero h1 {
     font-size: 1em !important;
   }

@@ -9,6 +9,9 @@
     }
 }
 @media(max-width:1000px){
+    #site-header{
+        top:0;
+    }
     .header-inner{
         padding:2rem 0 !important;
     }

@@ -2,12 +2,13 @@
 .interior-hero{
     @include flex(flex-start, flex-end);
     h1{
-        width:50%;
+        width:45%;
         margin:0;
         font-size:2em;
         padding:.5em .25em;
         color:rgb(221,221,221);
         background-color:$axton-red;
+        text-align: right;
         span{
             color:rgb(94,94,94);
             background:white;
