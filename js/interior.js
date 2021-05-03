@@ -1,14 +1,17 @@
 const options = document.querySelectorAll('.interior-option');
 var currActive;
+const toggleActive = (el) => {
+    if(el.classList.contains('active')){
+        el.classList.remove('active');
+    }
+    else{
+        el.classList.add('active');
+        currActive = el;
+    }
+}
 options.forEach(option=>{
     option.addEventListener('click', ()=>{
-        if(option.classList.contains('active')){
-            option.classList.remove('active');
-        }
-        else{
-            option.classList.add('active');
-            currActive = option;
-        }
+        toggleActive(option);
     })
 })
 window.addEventListener('click',()=>{
