@@ -40,6 +40,31 @@
         }
     }
 }
+.interior-options-outer{
+    background-image:url("/wp-content/uploads/2021/04/White_back.png");
+    background-size:cover;
+    background-position:center;
+    padding:3.5em 1em;
+    .row{
+        @include flex(space-evenly, center);
+        flex-wrap:wrap;
+        .interior-option{
+            @include flex(center, center);
+            width:45%;
+            border:2px solid black;
+            img{
+                width:33%;
+            }
+            >div{
+                h3,p{
+                    color:black;
+                    margin:0;
+                    width:77%;
+                }
+            }
+        }
+    }
+}
 .interior-selection{
     @include flex(center, center);
     background-image:url("/wp-content/uploads/2021/05/Black_metal_background.png");
@@ -69,6 +94,23 @@
     }
 }
 @media(max-width:$tablet-width){
+    .interior-options-outer{
+        .row{
+            .interior-option{
+                width:90%;
+                margin:1em 0;
+                img{
+                    width:33%;
+                }
+                >div{
+                    h3,p{
+                        color:black;
+                        margin:0;
+                    }
+                }
+            }
+        }
+    }
     .quote-inventory-outer{
         .quote, .inventory{
             width:100% !important;

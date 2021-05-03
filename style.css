@@ -910,6 +910,59 @@
   color: white;
 }
 
+.interior-options-outer {
+  background-image: url("/wp-content/uploads/2021/04/White_back.png");
+  background-size: cover;
+  background-position: center;
+  padding: 3.5em 1em;
+}
+
+.interior-options-outer .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.interior-options-outer .row .interior-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 45%;
+  border: 2px solid black;
+}
+
+.interior-options-outer .row .interior-option img {
+  width: 33%;
+}
+
+.interior-options-outer .row .interior-option > div h3, .interior-options-outer .row .interior-option > div p {
+  color: black;
+  margin: 0;
+  width: 77%;
+}
+
 .interior-selection {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -955,6 +1008,17 @@
 }
 
 @media (max-width: 768px) {
+  .interior-options-outer .row .interior-option {
+    width: 90%;
+    margin: 1em 0;
+  }
+  .interior-options-outer .row .interior-option img {
+    width: 33%;
+  }
+  .interior-options-outer .row .interior-option > div h3, .interior-options-outer .row .interior-option > div p {
+    color: black;
+    margin: 0;
+  }
   .quote-inventory-outer .quote, .quote-inventory-outer .inventory {
     width: 100% !important;
     text-align: center;

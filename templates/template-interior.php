@@ -16,4 +16,5 @@ get_header();
 <?php get_template_part('template-parts/interior', 'content'); ?>
 <?php get_template_part('template-parts/interior', 'quote-inventory'); ?>
 <?php get_template_part('template-parts/interior', 'selection'); ?>
+<?php get_template_part('template-parts/interior', 'options'); ?>
 <?php get_footer(); ?>
