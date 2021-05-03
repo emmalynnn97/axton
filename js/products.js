@@ -1,4 +1,4 @@
-function configureProductSlider(){
+const configureProductSlider = () => {
     if(window.innerWidth > 800){
         swiper = new Swiper('.swiper-container', {
             slidesPerView: 3,
@@ -40,7 +40,7 @@ function configureProductSlider(){
           });
     }
 }
-function setEventListeners(){
+const setEventListeners = () => {
   const resizeDelay = 250;
   window.addEventListener('load', configureProductSlider);
     window.addEventListener('resize', ()=>{
