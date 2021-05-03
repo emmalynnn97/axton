@@ -1,5 +1,5 @@
 const options = document.querySelectorAll('.interior-option');
-var currActive = document.querySelector('.interior-option.interior-options');
+let currActive = document.querySelector('.interior-option.interior-options');
 const toggleActive = (el) => {
     if(!el.classList.contains('active')){
         el.classList.add('active');
