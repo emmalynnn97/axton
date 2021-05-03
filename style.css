@@ -726,11 +726,17 @@
   color: black;
 }
 
+.products-categories p {
+  font-weight: 500;
+  margin: .5em 0 1em 0 !important;
+}
+
 .products-categories h2 {
   font-size: 1.25em;
   margin: .5em 0 0 0;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  text-transform: capitalize;
 }
 
 .products-categories .product-card {
