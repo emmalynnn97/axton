@@ -1,4 +1,4 @@
-.axton-btn{
+.axton-btn-inverted{
 	background-image:url("/wp-content/uploads/2021/04/btn.png");
 	background-size:contain;
 	background-repeat:no-repeat;
@@ -11,7 +11,7 @@
     text-transform:uppercase;
 	@include flex;
 }
-.axton-btn-inverted{
+.axton-btn{
 	background-image:url("/wp-content/uploads/2021/04/Learn-more-Button.png");
 	background-size:contain;
 	background-repeat:no-repeat;
