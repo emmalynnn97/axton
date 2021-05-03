@@ -40,6 +40,27 @@
         }
     }
 }
+.interior-selection{
+    @include flex(center, center);
+    background-image:url("/wp-content/uploads/2021/05/Black_metal_background.png");
+    background-size:cover;
+    background-position:center;
+    padding:1em 0 0 0;
+    >div{
+        margin:0 .75em;
+        color:white;
+        text-transform: uppercase;
+        border-bottom:.75em solid transparent;
+        transition:.25s ease-in-out;
+        cursor:pointer;
+        &.active{
+            border-bottom:.75em solid $axton-red;
+        }
+        &:hover{
+            border-bottom:.75em solid $axton-red;
+        }
+    }
+}
 @media(max-width:$laptop-width){
     .quote-inventory-outer{
         h2{
@@ -53,5 +74,8 @@
             width:100% !important;
             text-align: center;
         }
+    }
+    .interior-option{
+        font-size:.75em;
     }
 }
