@@ -1,5 +1,5 @@
 #site-header{
-    background:#231f20;
+    background:$nav-bg;
 	position:fixed;
     z-index:2;
 	right:0;
@@ -20,7 +20,6 @@
     }
     .current-menu-item{
         background:$axton-red;
-            
             a{
                 transform:skew(10deg, 0);
             }
@@ -80,7 +79,7 @@
 		padding:0;
 	}
 	.header-inner{padding:0;}
-	.custom-logo{width:175px;}
+	.custom-logo{width:$nav-logo-width;}
 }
 .menu-modal-inner{
 	background:black;
