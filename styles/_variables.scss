@@ -48,7 +48,7 @@
   *	A mixin to easily set background images
   *
   */
-  @mixin setBg($image, $size, $position){
+  @mixin setBg($image, $size : cover, $position : center){
 	background-image:url($image);
 	background-size:$size;
 	background-position:$position;
@@ -85,6 +85,7 @@ $mobile-product-card-width:100%;
 
 $interior-hero-height:60vh;
 $interior-hero-image:'/wp-content/uploads/2021/04/top_pic.jpg';
+$interior-bg:'/wp-content/uploads/2021/04/White_back.png';
 
 $axton-red: rgb(186,23,28);
 

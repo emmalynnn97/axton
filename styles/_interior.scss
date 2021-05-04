@@ -41,9 +41,7 @@
     }
 }
 .interior-options-outer{
-    background-image:url("/wp-content/uploads/2021/04/White_back.png");
-    background-size:cover;
-    background-position:center;
+    @include setBg($interior-bg);
     padding:3.5em 1em;
     .row{
         margin:2.25em auto;
