@@ -3,7 +3,7 @@ footer{
 }
 .footer-insert{
 	@include flex;
-	background:#231f20;
+	background:$footer-insert-bg;
 	flex-wrap:wrap;
 	padding:.5em 0;
 	#menu-footer-insert-menu{
@@ -68,7 +68,7 @@ footer{
 	background:rgb(34, 34, 34);
 	text-transform:uppercase;
 	flex-wrap:wrap;
-	background-image:url('/wp-content/uploads/2021/04/Footer.jpg');
+	background-image:url($footer-bg);
 	background-size:cover;
 	background-position:center;
 	.footer-form-container{
@@ -76,7 +76,7 @@ footer{
 		form{
 			display:flex;
 			flex-direction: column;
-			width:275px;
+			width:$footer-form-width;
 		}
 		input,textarea{
 			margin:.35em 0;
