@@ -46,20 +46,33 @@
     background-position:center;
     padding:3.5em 1em;
     .row{
+        margin:2.25em auto;
         @include flex(space-evenly, center);
         flex-wrap:wrap;
         .interior-option{
             @include flex(center, center);
             width:45%;
-            border:2px solid black;
+            border:1px solid gray;
             img{
-                width:33%;
+                height:250px;
+                width:30%;
+                object-fit:cover;
+                margin:0 !important;
             }
             >div{
+                height:250px;
+                padding:2em 1em;
+                width:70%;
+                background:rgb(237,237,237);
                 h3,p{
                     color:black;
-                    margin:0;
-                    width:77%;
+                    margin:0 !important;
+                }
+                h3{
+                    font-size:1.15em;
+                }
+                p{
+                    font-weight:500;
                 }
             }
         }
@@ -92,17 +105,30 @@
             font-size:1em !important;
         }
     }
+    .interior-options-outer{
+        .row{
+            .interior-option{
+                >div,img{
+                    height:300px !important;
+                }
+            }
+        }
+    }
 }
 @media(max-width:$tablet-width){
     .interior-options-outer{
         .row{
+            margin:0 !important;
             .interior-option{
                 width:90%;
-                margin:1em 0;
+                margin:2.25em 0;
+                flex-direction: column !important;
                 img{
-                    width:33%;
+                    width:100%;
                 }
                 >div{
+                    height:auto !important;
+                    width:100%;
                     h3,p{
                         color:black;
                         margin:0;
