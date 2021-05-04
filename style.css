@@ -430,9 +430,9 @@
 }
 
 .home-industries {
+  background-attachment: fixed;
   background-image: url("/wp-content/uploads/2021/04/Background-copy-scaled.jpg");
   background-size: cover;
-  background-attachment: fixed;
   background-position: 50% 80%;
   padding: 2em 4em;
 }
@@ -521,9 +521,9 @@
 }
 
 .home-dealers-fleets {
+  background-attachment: fixed;
   background-image: url("/wp-content/uploads/2021/04/Background-copy-scaled.jpg");
   background-size: cover;
-  background-attachment: fixed;
   background-position: 50% 20%;
   padding: 2em 4em;
 }
