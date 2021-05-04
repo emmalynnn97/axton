@@ -148,10 +148,13 @@
       flex-wrap: nowrap !important;
 }
 
-#site-header .current-menu-item {
-  background: #ba171c;
+#site-header .current-menu-item.menu-item-has-children {
   -webkit-transform: skew(-10deg, 0);
           transform: skew(-10deg, 0);
+}
+
+#site-header .current-menu-item {
+  background: #ba171c;
 }
 
 #site-header .current-menu-item a {

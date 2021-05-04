@@ -15,9 +15,12 @@
     .primary-menu{
         flex-wrap:nowrap !important;
     }
+    .current-menu-item.menu-item-has-children{
+        transform:skew(-10deg, 0);
+    }
     .current-menu-item{
         background:$axton-red;
-            transform:skew(-10deg, 0);
+            
             a{
                 transform:skew(10deg, 0);
             }
