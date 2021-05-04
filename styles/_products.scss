@@ -33,7 +33,9 @@
             background:white;
             transition:.25s ease-in-out;
             &:hover{
-                transform:scale(.96);
+                transform:scale(.98);
+                background:$axton-red;
+                color:white;
             }
         }
     }
