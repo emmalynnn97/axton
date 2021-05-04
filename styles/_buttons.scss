@@ -1,5 +1,5 @@
 .axton-btn-inverted{
-	background-image:url("/wp-content/uploads/2021/04/btn.png");
+	background-image:url($axton-button-inverted-bg);
 	background-size:contain;
 	background-repeat:no-repeat;
 	width:175px;
@@ -12,7 +12,7 @@
 	@include flex;
 }
 .axton-btn{
-	background-image:url("/wp-content/uploads/2021/04/Learn-more-Button.png");
+	background-image:url($axton-button-bg);
 	background-size:contain;
 	background-repeat:no-repeat;
 	width:165px;
