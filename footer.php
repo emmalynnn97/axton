@@ -12,9 +12,7 @@
  */
 
 ?>
-  <script type="text/javascript" src="/wp-content/themes/axtontruck/js/footer.js">
-	
-</script>
+  <script type="text/javascript" src="/wp-content/themes/axtontruck/js/footer.js"></script>
 <?php get_template_part('template-parts/sidebar', 'outer'); ?>
 <?php get_template_part('template-parts/footer', 'insert'); ?>
 <div class="footer-items">

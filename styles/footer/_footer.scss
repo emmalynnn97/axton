@@ -68,9 +68,7 @@ footer{
 	background:rgb(34, 34, 34);
 	text-transform:uppercase;
 	flex-wrap:wrap;
-	background-image:url($footer-bg);
-	background-size:cover;
-	background-position:center;
+	@include setBg($footer-bg, cover, center);
 	.footer-form-container{
 		@include flex(center, center, column);
 		form{

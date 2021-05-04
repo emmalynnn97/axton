@@ -42,6 +42,17 @@
 	  font-style: normal;
 	}
   }
+
+  /*
+  *
+  *	A mixin to easily set background images
+  *
+  */
+  @mixin setBg($image, $size, $position){
+	background-image:url($image);
+	background-size:$size;
+	background-position:$position;
+  }
   /*
   *
   *	Animation to make the direction arrows bob up and down without causing CLS issues
