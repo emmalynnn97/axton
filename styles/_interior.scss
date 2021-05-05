@@ -42,6 +42,7 @@
 }
 .interior-options-outer{
     @include setBg($interior-bg);
+    display:none;
     padding:3.5em 1em;
     .row{
         margin:2.25em auto;
@@ -76,6 +77,53 @@
         }
     }
 }
+.interior-options-outer.active{
+    display:block;
+}
+.interior-specs-outer.active{
+    display:block !important;
+}
+.interior-gallery-outer.active{
+    display:block !important;
+}
+.interior-specs-outer, .interior-gallery-outer{
+    @include setBg($interior-bg);
+    display:none;
+    padding:3.5em 1em;
+    .row{
+        margin:2.25em auto;
+        @include flex(space-evenly, center);
+        flex-wrap:wrap;
+        .interior-option{
+            @include flex(center, center);
+            width:45%;
+            border:1px solid gray;
+            img{
+                height:250px;
+                width:30%;
+                object-fit:cover;
+                margin:0 !important;
+            }
+            >div{
+                height:250px;
+                padding:2em 1em;
+                width:70%;
+                background:rgb(237,237,237);
+                h3,p{
+                    color:black;
+                    margin:0 !important;
+                }
+                h3{
+                    font-size:1.15em;
+                }
+                p{
+                    font-weight:500;
+                }
+            }
+        }
+    }
+}
+
 .interior-selection{
     @include flex(center, center);
     background-image:url("/wp-content/uploads/2021/05/Black_metal_background.png");

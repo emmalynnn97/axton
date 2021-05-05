@@ -922,6 +922,7 @@
   background-image: url("/wp-content/uploads/2021/04/White_back.png");
   background-size: cover;
   background-position: center;
+  display: none;
   padding: 3.5em 1em;
 }
 
@@ -987,6 +988,91 @@
 }
 
 .interior-options-outer .row .interior-option > div p {
+  font-weight: 500;
+}
+
+.interior-options-outer.active {
+  display: block;
+}
+
+.interior-specs-outer.active {
+  display: block !important;
+}
+
+.interior-gallery-outer.active {
+  display: block !important;
+}
+
+.interior-specs-outer, .interior-gallery-outer {
+  background-image: url("/wp-content/uploads/2021/04/White_back.png");
+  background-size: cover;
+  background-position: center;
+  display: none;
+  padding: 3.5em 1em;
+}
+
+.interior-specs-outer .row, .interior-gallery-outer .row {
+  margin: 2.25em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.interior-specs-outer .row .interior-option, .interior-gallery-outer .row .interior-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 45%;
+  border: 1px solid gray;
+}
+
+.interior-specs-outer .row .interior-option img, .interior-gallery-outer .row .interior-option img {
+  height: 250px;
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 !important;
+}
+
+.interior-specs-outer .row .interior-option > div, .interior-gallery-outer .row .interior-option > div {
+  height: 250px;
+  padding: 2em 1em;
+  width: 70%;
+  background: #ededed;
+}
+
+.interior-specs-outer .row .interior-option > div h3, .interior-specs-outer .row .interior-option > div p, .interior-gallery-outer .row .interior-option > div h3, .interior-gallery-outer .row .interior-option > div p {
+  color: black;
+  margin: 0 !important;
+}
+
+.interior-specs-outer .row .interior-option > div h3, .interior-gallery-outer .row .interior-option > div h3 {
+  font-size: 1.15em;
+}
+
+.interior-specs-outer .row .interior-option > div p, .interior-gallery-outer .row .interior-option > div p {
   font-weight: 500;
 }
 
