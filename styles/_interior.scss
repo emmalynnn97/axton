@@ -151,7 +151,7 @@
             font-size:1em !important;
         }
     }
-    .interior-options-outer{
+    .interior-options-outer, .interior-specs-outer,.interior-gallery-outer{
         .row{
             .interior-option{
                 >div,img{
@@ -162,7 +162,7 @@
     }
 }
 @media(max-width:$tablet-width){
-    .interior-options-outer{
+    .interior-options-outer,  .interior-specs-outer,.interior-gallery-outer{
         .row{
             margin:0 !important;
             .interior-option{
