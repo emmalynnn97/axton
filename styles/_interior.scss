@@ -86,7 +86,7 @@
 .interior-gallery-outer.active{
     display:block !important;
 }
-.interior-specs-outer, .interior-gallery-outer{
+.interior-gallery-outer{
     @include setBg($interior-bg);
     display:none;
     padding:3.5em 1em;
