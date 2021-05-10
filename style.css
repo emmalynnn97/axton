@@ -898,10 +898,6 @@
   padding: 1.5em 4.5em;
 }
 
-.quote-inventory-outer .quote {
-  background: #d2d2d2;
-}
-
 .quote-inventory-outer .quote h2 {
   color: black;
 }
@@ -1003,7 +999,7 @@
   display: block !important;
 }
 
-.interior-specs-outer, .interior-gallery-outer {
+.interior-gallery-outer {
   background-image: url("/wp-content/uploads/2021/04/White_back.png");
   background-size: cover;
   background-position: center;
@@ -1011,7 +1007,7 @@
   padding: 3.5em 1em;
 }
 
-.interior-specs-outer .row, .interior-gallery-outer .row {
+.interior-gallery-outer .row {
   margin: 2.25em auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1030,7 +1026,7 @@
       flex-wrap: wrap;
 }
 
-.interior-specs-outer .row .interior-option, .interior-gallery-outer .row .interior-option {
+.interior-gallery-outer .row .interior-option {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1048,7 +1044,7 @@
   border: 1px solid gray;
 }
 
-.interior-specs-outer .row .interior-option img, .interior-gallery-outer .row .interior-option img {
+.interior-gallery-outer .row .interior-option img {
   height: 250px;
   width: 30%;
   -o-object-fit: cover;
@@ -1056,23 +1052,23 @@
   margin: 0 !important;
 }
 
-.interior-specs-outer .row .interior-option > div, .interior-gallery-outer .row .interior-option > div {
+.interior-gallery-outer .row .interior-option > div {
   height: 250px;
   padding: 2em 1em;
   width: 70%;
   background: #ededed;
 }
 
-.interior-specs-outer .row .interior-option > div h3, .interior-specs-outer .row .interior-option > div p, .interior-gallery-outer .row .interior-option > div h3, .interior-gallery-outer .row .interior-option > div p {
+.interior-gallery-outer .row .interior-option > div h3, .interior-gallery-outer .row .interior-option > div p {
   color: black;
   margin: 0 !important;
 }
 
-.interior-specs-outer .row .interior-option > div h3, .interior-gallery-outer .row .interior-option > div h3 {
+.interior-gallery-outer .row .interior-option > div h3 {
   font-size: 1.15em;
 }
 
-.interior-specs-outer .row .interior-option > div p, .interior-gallery-outer .row .interior-option > div p {
+.interior-gallery-outer .row .interior-option > div p {
   font-weight: 500;
 }
 
