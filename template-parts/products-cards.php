@@ -4,7 +4,6 @@
     <?php get_template_part('template-parts/products', 'product-card-platform'); ?>  
     <?php get_template_part('template-parts/products', 'product-card-service'); ?>  
     <?php get_template_part('template-parts/products', 'product-card-crane'); ?>  
-    <?php get_template_part('template-parts/products', 'product-card-industrial'); ?>  
     <?php get_template_part('template-parts/products', 'product-card-dump'); ?>  
     <?php get_template_part('template-parts/products', 'product-card-van'); ?>  
 </div>
