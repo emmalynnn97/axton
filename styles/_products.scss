@@ -1,7 +1,12 @@
 @import "./hero/hero-products";
 .product-selection-border{
     position:absolute;
-    height:300px;
+    height:400px;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+z-index:2;
 }
 .products-categories{
     @include setBg($products-categories-bg, cover, center);
