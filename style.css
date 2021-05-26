@@ -722,7 +722,7 @@
 
 .product-selection-border {
   position: absolute;
-  height: 400px;
+  height: 275px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -824,6 +824,7 @@
   .product-selection-border {
     position: absolute;
     height: 450px;
+    width: 75%;
   }
 }
 
