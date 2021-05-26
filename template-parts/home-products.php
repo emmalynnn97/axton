@@ -1,5 +1,6 @@
 
 <div class="home-section home-products">
+<img class="product-selection-border" src="http://localhost:10008/wp-content/uploads/2021/05/Bracket-1.png" alt=""/>
 <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">

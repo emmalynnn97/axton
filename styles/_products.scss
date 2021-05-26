@@ -1,4 +1,8 @@
 @import "./hero/hero-products";
+.product-selection-border{
+    position:absolute;
+    height:300px;
+}
 .products-categories{
     @include setBg($products-categories-bg, cover, center);
     color:black;
@@ -53,5 +57,9 @@
 @media(max-width:$mobile-width){
     .product-card{
         width:$mobile-product-card-width !important;
+    }
+    .product-selection-border{
+        position:absolute;
+        height:450px;
     }
 }
