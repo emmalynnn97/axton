@@ -9,19 +9,9 @@ const configureProductSlider = () => {
             },
           });
     }
-    if(window.innerWidth > 1500){
-        swiper = new Swiper('.swiper-container', {
-            slidesPerView: 4,
-            spaceBetween: 60,
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-          });
-    }
     if(window.innerWidth < 800){
         swiper = new Swiper('.swiper-container', {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 25,
             navigation: {
               nextEl: '.swiper-button-next',

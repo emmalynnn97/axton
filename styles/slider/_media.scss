@@ -2,12 +2,14 @@
     .swiper-container{
         padding:2em !important;
     }
-   
+    .product-selection-border{
+        height:450px;
+        width:90%;
+    }
 }
 @media(max-width:$mobile-width){
     .product-selection-border{
-        position:absolute;
         height:300px;
-        width:80%;
+        width:90%;
     }
 }

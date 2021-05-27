@@ -94,7 +94,7 @@
 
 .product-selection-border {
   position: absolute;
-  height: 275px;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -1767,13 +1767,16 @@ body {
   .swiper-container {
     padding: 2em !important;
   }
+  .product-selection-border {
+    height: 450px;
+    width: 90%;
+  }
 }
 
 @media (max-width: 500px) {
   .product-selection-border {
-    position: absolute;
     height: 300px;
-    width: 80%;
+    width: 90%;
   }
 }
 
