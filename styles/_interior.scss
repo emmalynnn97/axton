@@ -1,16 +1,29 @@
 @import "./hero/hero-interior";
+.interior-content-outer{
+    @include flex(center, center);
+    padding:4em 0;
+    flex-wrap:wrap;
+    
+}
 .interior-content{
-    padding:2em 4.5em;
-    border-top:17px solid $axton-red;
-    p{
+    width:50%;
+    padding:0 2em;
+    h1{
+        color:black;
+        font-size:1.75em;
+        margin:0;
+        span{
+            color:$axton-red;
+        }
+    }
+   p{
         color:rgb(94,94,94);
         font-weight:500;
         font-size:14px;
     }
 }
 .quote-inventory-outer{
-    @include flex;
-    flex-wrap:wrap;
+    width:50%;
     h2{
         font-size:1.25em;
         margin:0 0 2px 0;
@@ -20,16 +33,16 @@
         margin:0 0 1.5em 0 !important;
     }
     .quote,.inventory{
-        height:225px;
-        width:50%;
         padding:1.5em 4.5em;
+        margin:.5em 0;
     }
     .quote{
+        background:black;
         h2{
-            color:black;
+            color:white;
         }
         p{
-            color:black;
+            color:white;
         }
     }
     .inventory{

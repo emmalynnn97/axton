@@ -863,18 +863,7 @@
   padding: .25em;
 }
 
-.interior-content {
-  padding: 2em 4.5em;
-  border-top: 17px solid #ba171c;
-}
-
-.interior-content p {
-  color: #5e5e5e;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.quote-inventory-outer {
+.interior-content-outer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -888,8 +877,34 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding: 4em 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.interior-content {
+  width: 50%;
+  padding: 0 2em;
+}
+
+.interior-content h1 {
+  color: black;
+  font-size: 1.75em;
+  margin: 0;
+}
+
+.interior-content h1 span {
+  color: #ba171c;
+}
+
+.interior-content p {
+  color: #5e5e5e;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.quote-inventory-outer {
+  width: 50%;
 }
 
 .quote-inventory-outer h2 {
@@ -903,17 +918,20 @@
 }
 
 .quote-inventory-outer .quote, .quote-inventory-outer .inventory {
-  height: 225px;
-  width: 50%;
   padding: 1.5em 4.5em;
+  margin: .5em 0;
+}
+
+.quote-inventory-outer .quote {
+  background: black;
 }
 
 .quote-inventory-outer .quote h2 {
-  color: black;
+  color: white;
 }
 
 .quote-inventory-outer .quote p {
-  color: black;
+  color: white;
 }
 
 .quote-inventory-outer .inventory {
@@ -1350,13 +1368,13 @@ h5 {
 }
 
 .axton-quote-btn {
-  color: black;
-  border: 2px solid black;
+  color: white;
+  border: 2px solid white;
 }
 
 .axton-quote-btn:hover {
-  background: black;
-  color: #d2d2d2;
+  background: white;
+  color: black;
 }
 
 .axton-inventory-btn {
