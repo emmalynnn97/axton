@@ -1648,6 +1648,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .quote-inventory-outer, .interior-content {
+    width: 100%;
+  }
   .hide-tablet {
     display: none;
   }

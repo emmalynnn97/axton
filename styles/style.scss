@@ -44,6 +44,9 @@ body{
 }
 
 @media (max-width:$tablet-width){
+	.quote-inventory-outer, .interior-content{
+		width:100%;
+	}
 	.hide-tablet{
 		display:none;
 	}
