@@ -44,9 +44,16 @@ body{
 }
 
 @media (max-width:$tablet-width){
-	.quote-inventory-outer, .interior-content{
-		width:100%;
+	.interior-content-outer{
+		.quote-inventory-outer, .interior-content{
+			width:100%;
+			.quote,.inventory{
+				margin:0;
+			}
+		}
+		padding:1em 0;
 	}
+	
 	.hide-tablet{
 		display:none;
 	}

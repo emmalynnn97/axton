@@ -1648,8 +1648,14 @@ body {
 }
 
 @media (max-width: 768px) {
-  .quote-inventory-outer, .interior-content {
+  .interior-content-outer {
+    padding: 1em 0;
+  }
+  .interior-content-outer .quote-inventory-outer, .interior-content-outer .interior-content {
     width: 100%;
+  }
+  .interior-content-outer .quote-inventory-outer .quote, .interior-content-outer .quote-inventory-outer .inventory, .interior-content-outer .interior-content .quote, .interior-content-outer .interior-content .inventory {
+    margin: 0;
   }
   .hide-tablet {
     display: none;
