@@ -142,7 +142,7 @@
 #site-header {
   background: #231f20;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   right: 0;
   width: 100%;
 }
