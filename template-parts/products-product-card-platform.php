@@ -6,5 +6,5 @@
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero molestiae placeat ducimus est aliquam accusantium ex culpa reiciendis iusto. Nobis officiis similique dolore rerum maiores eveniet architecto impedit sunt assumenda?
         </p>
-        <a>View This product</a>
+        <a href="/platform-bodies">View This product</a>
     </div>
