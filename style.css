@@ -1114,9 +1114,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-image: url("/wp-content/uploads/2021/05/Black_metal_background.png");
-  background-size: cover;
-  background-position: center;
   padding: 1em 0 0 0;
 }
 

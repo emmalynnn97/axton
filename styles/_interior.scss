@@ -138,9 +138,6 @@
 
 .interior-selection{
     @include flex(center, center);
-    background-image:url("/wp-content/uploads/2021/05/Black_metal_background.png");
-    background-size:cover;
-    background-position:center;
     padding:1em 0 0 0;
     >div{
         margin:0 .75em;
