@@ -863,6 +863,14 @@
   padding: .25em;
 }
 
+.interior-options-wrapper {
+  border-top: 20px solid #231f20;
+  padding: 3.5em 1em;
+  background-image: url("/wp-content/uploads/2021/04/White_back.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .interior-content-outer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -943,11 +951,7 @@
 }
 
 .interior-options-outer {
-  background-image: url("/wp-content/uploads/2021/04/White_back.png");
-  background-size: cover;
-  background-position: center;
   display: none;
-  padding: 3.5em 1em;
 }
 
 .interior-options-outer .row {

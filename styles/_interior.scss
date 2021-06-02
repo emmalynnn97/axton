@@ -1,9 +1,13 @@
 @import "./hero/hero-interior";
+.interior-options-wrapper{
+    border-top:20px solid $axton-gray;
+    padding:3.5em 1em;
+    @include setBg($interior-bg);
+}
 .interior-content-outer{
     @include flex(center, center);
     padding:4em 0;
     flex-wrap:wrap;
-    
 }
 .interior-content{
     width:50%;
@@ -53,9 +57,9 @@
     }
 }
 .interior-options-outer{
-    @include setBg($interior-bg);
+
     display:none;
-    padding:3.5em 1em;
+
     .row{
         margin:2.25em auto;
         @include flex(space-evenly, center);
