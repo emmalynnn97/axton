@@ -57,9 +57,7 @@
     }
 }
 .interior-options-outer{
-
     display:none;
-
     .row{
         margin:2.25em auto;
         @include flex(space-evenly, center);
@@ -103,9 +101,7 @@
     display:block !important;
 }
 .interior-gallery-outer{
-    @include setBg($interior-bg);
     display:none;
-    padding:3.5em 1em;
     .row{
         margin:2.25em auto;
         @include flex(space-evenly, center);
@@ -144,17 +140,15 @@
     @include flex(center, center);
     padding:1em 0 0 0;
     >div{
-        margin:0 .75em;
+        margin:0;
         color:white;
         text-transform: uppercase;
-        border-bottom:.75em solid transparent;
         transition:.25s ease-in-out;
         cursor:pointer;
+        background-color:$axton-red;
         &.active{
-            border-bottom:.75em solid $axton-red;
-        }
-        &:hover{
-            border-bottom:.75em solid $axton-red;
+            background-color:$axton-gray;
+            z-index:1;
         }
     }
 }

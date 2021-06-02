@@ -1032,11 +1032,7 @@
 }
 
 .interior-gallery-outer {
-  background-image: url("/wp-content/uploads/2021/04/White_back.png");
-  background-size: cover;
-  background-position: center;
   display: none;
-  padding: 3.5em 1em;
 }
 
 .interior-gallery-outer .row {
@@ -1122,21 +1118,18 @@
 }
 
 .interior-selection > div {
-  margin: 0 .75em;
+  margin: 0;
   color: white;
   text-transform: uppercase;
-  border-bottom: .75em solid transparent;
   -webkit-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
   cursor: pointer;
+  background-color: #ba171c;
 }
 
 .interior-selection > div.active {
-  border-bottom: 0.75em solid #ba171c;
-}
-
-.interior-selection > div:hover {
-  border-bottom: 0.75em solid #ba171c;
+  background-color: #231f20;
+  z-index: 1;
 }
 
 @media (max-width: 1024px) {
