@@ -4,5 +4,4 @@
                 <h3>Toolboxes</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem ullam aspernatur fugiat dolor excepturi voluptate laboriosam sint! Numquam, quaerat, ipsa quo temporibus laboriosam velit a, fugiat corporis minima nam deleniti.</p>
             </div>
-            
 </div>
